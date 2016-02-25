@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.openeleq.tools" name=" [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] Tools" version="1.0.6" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
+<addon id="plugin.program.openeleq.tools" name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] Tools" version="1.0.7" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
   <requires>
       <import addon="xbmc.python" version="2.14.0"/>
       <import addon="script.module.beautifulsoup" version="3.0.8"/>
@@ -269,7 +269,7 @@
 
 <addon
   id="skin.qonfluence"
-  version="2.6.7"
+  version="2.6.8"
   name="[COLOR FF8ABEE2]Q[/COLOR]onfluence"
   provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
   <requires>
