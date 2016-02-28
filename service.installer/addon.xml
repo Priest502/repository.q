@@ -5,8 +5,13 @@
   </requires>
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <description lang="en">!!! DO NOT INSTALL !!! Unless you are absolutely sure you want to install the Quix build. If you install this service, it will automaticly start downloading Quix.zip. After unzipping, the service will set skinsettings without the need for force close, enjoy!</summary>
-    <summary lang="en"></summary>
+      <summary lang="en">Quix installer service</summary>
+      <description lang="en">!!! DO NOT INSTALL !!! Unless you are absolutely sure you want to install the Quix build. If you install this service, it will automaticly start downloading Quix.zip. After unzipping, the service will set skinsettings without the need for force close, enjoy!</description>
+      <platform>all</platform>
+      <language>en</language>
+      <license></license>
+      <forum></forum>
+      <email>OpenELEQ@gmail.com</email>
+      <disclaimer lang="en"></disclaimer>
   </extension>
 </addon>
