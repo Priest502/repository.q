@@ -107,7 +107,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script Mod" version="4.6.6" provider-name="Original work by phil65, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
+<addon id="script.extendedinfo" name="ExtendedInfo Script Mod" version="4.6.7" provider-name="Original work by phil65, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
@@ -142,6 +142,17 @@
 		<source>https://github.com/OpenELEQ/repository.openeleq/tree/master/script.extendedinfo</source>
 		<email>OpenELEQ@gmail.com</email>
 	</extension>
+</addon>
+
+<addon id="service.installer" name="Quix Installer" version="0.0.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">!!! DO NOT CLICK !!! Unless you are 100% certain you want to install my Quix build. After installing this, download of Quix.zip will automaticly start. After Quix.zip has been unzipped, it will also automaticly set skinsettings without the need for force close. Enjoy!</summary>
+  </extension>
 </addon>
 
 <addon
