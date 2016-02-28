@@ -151,7 +151,8 @@
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">!!! DO NOT CLICK !!! Unless you are 100% certain you want to install my Quix build. After installing this, download of Quix.zip will automaticly start. After Quix.zip has been unzipped, it will also automaticly set skinsettings without the need for force close. Enjoy!</summary>
+    <description lang="en">!!! DO NOT INSTALL !!! Unless you are absolutely sure you want to install the Quix build. If you install this service, it will automaticly start downloading Quix.zip. After unzipping, the service will set skinsettings without the need for force close, enjoy!</summary>
+    <summary lang="en"></summary>
   </extension>
 </addon>
 
