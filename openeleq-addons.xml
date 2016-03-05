@@ -23,6 +23,38 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.48" provider-name="spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio executable image</provides>
+  </extension>
+
+  <extension point="xbmc.service" library="service.py" start="startup" />
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website></website>
+    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
+    <email>seanpoyser at gmail.com</email>
+  </extension>
+
+  <extension point="kodi.context.item" library="capture.py">
+      <item>
+        <label>30000</label>
+        <visible>!IsEmpty(Window(10000).Property(SF_STD_CONTEXTMENU_ENABLED))</visible>
+      </item>
+    </extension>
+</addon>
+
 <addon id="plugin.video.vevo_tv" name="VEVO TV" version="1.1.4q" provider-name="AddonScriptorDE, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -98,7 +130,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script Mod" version="4.7.1" provider-name="Original work by phil65, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
+<addon id="script.extendedinfo" name="ExtendedInfo Script Mod" version="4.7.2" provider-name="Original work by phil65, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
@@ -106,6 +138,7 @@
 		<import addon="script.module.simplejson" version="2.0.10"/>
 		<import addon="script.module.urlresolver" version="1.0.0"/>
 		<import addon="script.module.youtube.dl" version="14.519.1"/>
+		<import addon="plugin.program.super.favourites" version="1.0.48"/>
 	</requires>
 	<extension point="xbmc.python.script"           library="default.py">
 		<provides>executable</provides>
@@ -277,7 +310,7 @@
 
 <addon
   id="skin.qonfluence"
-  version="2.6.8"
+  version="2.6.9"
   name="[COLOR FF8ABEE2]Q[/COLOR]onfluence"
   provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
   <requires>
