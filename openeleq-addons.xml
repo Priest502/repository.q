@@ -55,6 +55,57 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.lihattv" name="[COLOR lime]lihattv[/COLOR] [COLOR black]|[COLOR black] [COLOR white]Live TV Streaming[/COLOR]" version="1.1.0q" provider-name="[COLOR darkorange]lihattv[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <language>en</language>
+        <platform>all</platform>
+        <summary lang="en">World live TV streaming</summary>
+        <description lang="en">Watch free IPTV for PC and Mobile device. You can watch live tv streaming over web browser on PC, Mac or Linux, on any Smartphone or Tablets, or on any media Player.</description>
+        <disclaimer>Please feel free to inform us about this plugins problem.</disclaimer>
+        <license>lihattv public licensed</license>
+        <source>http://lihattv.com/?q=download</source>
+        <forum>http://forum.lihattv.com/</forum>
+        <email>info@lihattv.us</email>
+        <website>http://lihattv.com</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ProjectCypher"
+       name="Project Cypher"
+       version="2.0.2q"
+       provider-name="Cypher">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Live SD and HD TV channels</summary>
+    <description>General disclaimer: Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.vevo_tv" name="VEVO TV" version="1.1.4q" provider-name="AddonScriptorDE, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
