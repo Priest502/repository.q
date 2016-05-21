@@ -76,9 +76,56 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.0.0" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Team Metate's Meta-video">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.futures" version="2.2.0"/>
+		<import addon="script.module.pyxbmct" version="1.1.4"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video audio</provides>
+	</extension>
+
+	<extension point="xbmc.service" library="service.py" start="[login|startup]">
+	</extension>
+
+	<extension point="kodi.context.item" library="context_playable.py">
+		<provides>executable</provides>
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
+				<visible>[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+
+	<extension point="kodi.context.item" library="context_tvshow.py">
+		<provides>executable</provides>
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language></language>
+		<summary>TMDB and TVDB browser</summary>
+		<description>Browse TMDB and TVDB media and pass it along to an addon to try and play it. Needs player-files for each addon you want to use.</description>
+		<supportedcontent>
+			<content>movies</content>
+			<content>tvshows</content>
+			<content>episodes</content>
+			<content>musicvideos</content>
+			<content>music</content>
+		</supportedcontent>
+		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=15273</forum>
+	</extension>
+</addon>
+
 <addon id="plugin.video.ProjectCypher"
        name="Project Cypher"
-       version="2.0.2q"
+       version="2.0.2"
        provider-name="Cypher">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -106,27 +153,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.vevo_tv" name="VEVO TV" version="1.1.4q" provider-name="AddonScriptorDE, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Watch music videos 24/7 - Official mode is currently available in the US, Canada, and Germany. Custom mode is currently available in Australia, Brazil, Canada, France, Germany, Ireland, Italy, The Netherlands, New Zealand, Poland, Spain, UK and US.</summary>
-        <language></language>
-        <description lang="en">Watch music videos 24/7 - Official mode is currently available in the US, Canada, and Germany. Custom mode is currently available in Australia, Brazil, Canada, France, Germany, Ireland, Italy, The Netherlands, New Zealand, Poland, Spain, UK and US.</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>https://github.com/AddonScriptorDE/plugin.video.vevo_tv</source>
-        <forum>http://forum.xbmc.org/showthread.php?tid=178369</forum>
-        <email>AddonScriptorDE at yahoo dot de</email>
-        <website>http://www.vevo.com</website>
-    </extension>
-</addon>
-
 <addon id="repository.q"
 		name="[COLOR FF8ABEE2]Q[/COLOR]'s Repository"
 		version="0.0.1"
@@ -150,29 +176,26 @@
 	</extension>
 </addon>
 
-<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC Addon REPOsitory" version="2.0.0" provider-name="XvBMC Nederland">
-  <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
+<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC Addon REPOsitory" version="3.0.1" provider-name="XvBMC Nederland">
 	<extension point="xbmc.addon.repository" name="XvBMC Addon Repo/Depot">
 		<dir>
-			<info compressed="false">https://github.com/XvBMC/repository.xvbmc/raw/master/xvbmc-addons.xml</info>
-			<checksum>https://github.com/XvBMC/repository.xvbmc/raw/master/xvbmc-addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/XvBMC/repository.xvbmc/master/zips/</datadir>
-			<hashes>true</hashes>
+			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/zips/</datadir>
+			<hashes>false</hashes>
 		</dir>
-			<info compressed="false">https://github.com/XvBMC/repository.xvbmc/raw/master/xvbmc-addons.xml</info>
-			<checksum>https://github.com/XvBMC/repository.xvbmc/raw/master/xvbmc-addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/XvBMC/repository.xvbmc/raw/master/zips/</datadir>
+			<info compressed="false">https://raw.github.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
+			<checksum>https://raw.github.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/XvBMC/repository.xvbmc/master/zips/</datadir>
 			<hashes>false</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">XvBMC The Netherlands Addon REPOsitory</summary>
 		<summary lang="nl">XvBMC Nederland Addon REPOsitory</summary>
-		<description lang="en">XvBMC The Netherlands Addon Repository / XvBMC The Netherlands Addon Depot \ be sure to check out our FB-page: https://www.fb.com/groups/XvBMCnederland/</description>
-		<description lang="nl">XvBMC Nederland Addon Repository / XvBMC Nederland Addon Depot \ en volg zeker ook even onze Facebook pagina: https://www.fb.com/groups/XvBMCnederland/</description>
-		<disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE just because you can ;)</disclaimer>
-		<disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE just because you can ;)</disclaimer>
+		<description lang="en">XvBMC The Netherlands Addon Repository | XvBMC-NL Addon Depot  |  be sure to check out our FB-page: https://www.facebook.com/groups/XvBMCnederland/ !!! USE AT YOUR OWN RISK !!!</description>
+		<description lang="nl">XvBMC Nederland Addon Repository | XvBMC-NL Addon Depot  |  en volg zeker ook onze Facebook pagina: https://www.facebook.com/groups/XvBMCnederland/ !!! USE AT YOUR OWN RISK !!!</description>
+		<disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+		<disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
 		<forum>https://www.fb.com/groups/XvBMCnederland/</forum>
