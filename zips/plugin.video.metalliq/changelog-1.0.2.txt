@@ -1,0 +1,16 @@
+v1.0.2
+- Fixed iconpath in source-creation
+v1.0.1
+- Moved images to git
+- Added @anyexcept parameter which will is @any with exclusions added. Example: "@anyexcept:Exclusion1||Exclusion2||Exclusion3" 
+v1.0.0
+- Forked from Meta-video 1.1.4
+- Movies get their own folders
+- Custom artwork (Metal)
+- Added Music
+- Added Musicvideos
+- Added toggle for music/musicvideos
+- Added TotalSetup-button to download, unzip & enable all players and set up all sources
+- Added option to parse specific player in path
+- When tvshows are added to library, a smartplaylists for that show is created as well
+- Added music categories.
