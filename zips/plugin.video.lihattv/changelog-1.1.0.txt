@@ -1,5 +1,0 @@
-1.1.0
-[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]:
-- 15.05.2016 | No changes/mods/edits whatsoever, I just put it in my repo as I could not find any repo containing it.
-
-- 08.06.2014 | Rebuild from other version.
