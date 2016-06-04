@@ -44,50 +44,45 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.0.3" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Team Metate's Meta-video">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.futures" version="2.2.0"/>
-    <import addon="script.module.pyxbmct" version="1.1.4"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video audio</provides>
-  </extension>
-
-  <extension point="xbmc.service" library="service.py" start="[login|startup]">
-  </extension>
-
-  <extension point="kodi.context.item" library="context_playable.py">
-    <provides>executable</provides>
-      <item>
-        <label>$ADDON[plugin.video.metalliq 30602]</label>
-        <visible>[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.metalliq)</visible>
-      </item>
-  </extension>
-
-  <extension point="kodi.context.item" library="context_tvshow.py">
-    <provides>executable</provides>
-      <item>
-        <label>$ADDON[plugin.video.metalliq 30622]</label>
-        <visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
-      </item>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <language></language>
-    <summary>TMDB and TVDB browser</summary>
-    <description>Browse TMDB and TVDB media and pass it along to an addon to try and play it. Needs player-files to actually play.</description>
-    <supportedcontent>
-      <content>movies</content>
-      <content>tvshows</content>
-      <content>episodes</content>
-      <content>musicvideos</content>
-      <content>music</content>
-    </supportedcontent>
-  </extension>
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.0.4" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Team Metate's Meta-video">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.futures" version="2.2.0"/>
+		<import addon="script.module.pyxbmct" version="1.1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video audio</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="[login|startup]">
+	</extension>
+	<extension point="kodi.context.item" library="context_playable.py">
+		<provides>executable</provides>
+			<item>
+			<label>$ADDON[plugin.video.metalliq 30602]</label>
+			<visible>[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_tvshow.py">
+		<provides>executable</provides>
+			<item>
+			<label>$ADDON[plugin.video.metalliq 30622]</label>
+			<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>TMDb, TVDb, AudioDb and LastFM browser</summary>
+		<description>Browse The MovieDb, The TVDb, The AudioDb and LastFM and pass it along to library or an addon to try and play it. Needs player-files to actually play.</description>
+		<supportedcontent>
+			<content>movies</content>
+			<content>tvshows</content>
+			<content>episodes</content>
+			<content>musicvideos</content>
+			<content>music</content>
+		</supportedcontent>
+		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=16682</forum>
+	</extension>
 </addon>
 
 <addon id="repository.q"
