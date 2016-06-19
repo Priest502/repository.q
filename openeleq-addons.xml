@@ -108,6 +108,24 @@
 	</extension>
 </addon>
 
+<addon id="repository.spoyser"
+        name="spoysers XBMC Add-ons"
+        version="0.1"
+        provider-name="spoyser">
+    <extension point="xbmc.addon.repository"
+        name="spoysers XBMC Add-ons">
+        <info compressed="false">https://raw.github.com/spoyser/spoyser-repo/master/addons.xml</info>
+        <checksum>https://raw.github.com/spoyser/spoyser-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/spoyser/spoyser-repo/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install XBMC add-ons from the official spoyser repository</summary>
+        <description>Install XBMC add-ons from spoysers official repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC Addon REPOsitory" version="3.0.1" provider-name="XvBMC Nederland">
 	<extension point="xbmc.addon.repository" name="XvBMC Addon Repo/Depot">
 		<dir>
@@ -320,10 +338,11 @@
 	provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
-		<import addon="plugin.program.super.favourites" version="1.0"/>
-		<import addon="script.favourites" version="1.0"/>
-		<import addon="script.extendedinfo" version="1.0"/>
+		<import addon="repository.spoyser" version="0.1"/>
+		<import addon="script.favourites" version="0.1"/>
+		<import addon="script.extendedinfo" version="0.1"/>
 		<import addon="service.library.data.provider" version="0.1"/>
+		<import addon="plugin.program.super.favourites" version="0.1"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"
