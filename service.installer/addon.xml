@@ -2,6 +2,7 @@
 <addon id="service.installer" name="Quix Installer" version="0.0.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.q"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">

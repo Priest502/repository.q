@@ -5,6 +5,7 @@
 - Added SuperShortcuts
 - Added default backgrounds
 - Added user-configurable widget content
+- Added my repo as a dependency
 - Added lots more
 
 - Merge latest updates from BigNoid master

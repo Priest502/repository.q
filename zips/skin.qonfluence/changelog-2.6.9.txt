@@ -1,5 +1,6 @@
 [B]2.6.9[/B]
 - Added themes back in
+- Added my repo as a dependency
 
 [B]2.6.8[/B]
 - Various bugfixes

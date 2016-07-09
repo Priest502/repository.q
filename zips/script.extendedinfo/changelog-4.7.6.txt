@@ -1,6 +1,7 @@
 v4.7.6
 [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
 - Fixed TVShows
+- Added my repo as a dependency
 v4.7.5
 [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
 - Fixed alternate play
