@@ -76,7 +76,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.2" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q"/>
@@ -88,11 +88,18 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="[login|startup]">
 	</extension>
+	<extension point="kodi.context.item" library="context_toggle.py">
+		<provides>executable</provides>
+			<item>
+				<label>Preferred toggle</label>
+				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
+			</item>
+	</extension>
 	<extension point="kodi.context.item" library="context_playable.py">
 		<provides>executable</provides>
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>!System.HasAddon(context.metalliq) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.metalliq)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_tvshow.py">
@@ -202,7 +209,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od" version="4.9.9b" provider-name="Modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], original work by phil65">
+<addon id="script.extendedinfo" name="[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od" version="4.9.9c" provider-name="Modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], original work by phil65">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="plugin.program.super.favourites" version="1.0.48"/>
