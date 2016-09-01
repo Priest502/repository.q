@@ -1,0 +1,5 @@
+Version 3.0.4a [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] Edited for Helix compatibility
+Version 3.0.4 add Get Related Videos
+Version 3.0.3 improve add to library
+Version 3.0.2 Added initial version of Add to Library
+Version 3.0.1 Isengard version

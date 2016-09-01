@@ -76,7 +76,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.4" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q"/>
@@ -95,25 +95,32 @@
 				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
 			</item>
 	</extension>
-	<extension point="kodi.context.item" library="context_playable.py">
+	<extension point="kodi.context.item" library="context_movie.py">
 		<provides>executable</provides>
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season) + !Skin.HasSetting(Contexting)</visible>
+				<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_tvshow.py">
 		<provides>executable</provides>
 			<item>
-				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
 				<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_live.py">
 		<provides>executable</provides>
 			<item>
-				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
 				<visible>[SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live) | SubString(ListItem.FileNameAndPath, plugin.video.metalliq/Live)]</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_playable.py">
+		<provides>executable</provides>
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season) + !Skin.HasSetting(Contexting)</visible>
 			</item>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -140,16 +147,47 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.myvevo"
+       name="VEVO"
+       version="3.0.4a"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.t1mlib" version="1.0.15"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">VEVO Video Addon</summary>
+    <description lang="en">Watch music videos, artist videos, and original shows on VEVO and VEVO TV</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991. Icons are made by Freepik from www.flaticon.com and are licensed under Creative Commons BY 3.0</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=223221</forum>
+    <website>www.vevo.com</website>
+    <email></email>
+    <source>https://github.com/learningit/Kodi-plugins-source</source>
+  </extension>
+</addon>
+
 <addon id="repository.q"
 		name="[COLOR FF8ABEE2]Q[/COLOR]'s Repository"
-		version="0.0.2.0"
+		version="0.0.2.1"
 		provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<extension point="xbmc.addon.repository"
 		name="[COLOR FF8ABEE2]Q[/COLOR]'s Add-on Repository">
-		<dir>
+		<dir minversion="14.0.0">
 			<info compressed="false">https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml</info>
 			<checksum>https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q/master/zips/</datadir>
+		</dir>
+		<dir minversion="16.0.0">
+			<info compressed="false">https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml</info>
+			<checksum>https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.jarvis/master/zips/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -161,24 +199,6 @@
 		<disclaimer lang="nl">[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] heeft niet alle add-ons in dit depot gemaakt en is ook op geen enkele manier verantwoordelijk voor hun inhoud.</disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.spoyser"
-        name="spoysers XBMC Add-ons"
-        version="0.1"
-        provider-name="spoyser">
-    <extension point="xbmc.addon.repository"
-        name="spoysers XBMC Add-ons">
-        <info compressed="false">https://raw.github.com/spoyser/spoyser-repo/master/addons.xml</info>
-        <checksum>https://raw.github.com/spoyser/spoyser-repo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.github.com/spoyser/spoyser-repo/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Install XBMC add-ons from the official spoyser repository</summary>
-        <description>Install XBMC add-ons from spoysers official repository</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC Addon REPOsitory" version="3.0.1" provider-name="XvBMC Nederland">
@@ -243,6 +263,25 @@
 		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/script.extendedinfo</source>
 		<email>OpenELEQ@gmail.com</email>
 	</extension>
+</addon>
+
+<addon id="script.module.t1mlib" name="t1m Library Routines" provider-name="t1m" version="1.0.15">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib"  />
+  <extension point="xbmc.addon.metadata">
+        <description lan="en">t1m Library Routines</description>
+        <summary lang="en">t1m Library Routines</summary>
+        <disclaimer lang="en"></disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <platform>all</platform>
+        <email></email>
+        <website></website>
+        <forum>http://forum.kodi.tv/showthread.php?tid=247163</forum>
+        <source>https://github.com/learningit/Kodi-plugins-source/tree/master/script.module.t1mlib</source>
+        <language></language>
+   </extension>
 </addon>
 
 <addon id="service.installer" name="Quix Installer" version="0.0.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
@@ -394,12 +433,12 @@
 	provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
+		<import addon="plugin.program.super.favourites" version="0.1"/>
+		<import addon="plugin.video.metalliq" version="0.1"/>
 		<import addon="repository.q"/>
-		<import addon="repository.spoyser" version="0.1"/>
 		<import addon="script.favourites" version="0.1"/>
 		<import addon="script.extendedinfo" version="0.1"/>
 		<import addon="service.library.data.provider" version="0.1"/>
-		<import addon="plugin.program.super.favourites" version="0.1"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"

@@ -1,6 +1,9 @@
 [B]2.6.9[/B]
-- Added themes back in
+- Added auto-reload on widget-content
+- Added [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] as a dependency
 - Added my repo as a dependency
+- Added themes back in
+- Removed Spoyser repo as dependency
 
 [B]2.6.8[/B]
 - Various bugfixes
