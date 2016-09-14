@@ -79,8 +79,8 @@
 <addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="repository.q"/>
-		<import addon="script.module.requests"/>
+		<import addon="repository.q" version="0.0.0.1"/>
+		<import addon="script.module.requests" version="2.9.1"/>
 		<import addon="script.module.futures" version="2.2.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
@@ -92,7 +92,7 @@
 		<provides>executable</provides>
 			<item>
 				<label>Preferred toggle</label>
-				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Toggling)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_movie.py">
@@ -120,7 +120,7 @@
 		<provides>executable</provides>
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30622]</label>
-				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season) + !Skin.HasSetting(Contexting)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Contexting)</visible>
 			</item>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -433,12 +433,12 @@
 	provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
-		<import addon="plugin.program.super.favourites" version="0.1"/>
-		<import addon="plugin.video.metalliq" version="0.1"/>
-		<import addon="repository.q"/>
-		<import addon="script.favourites" version="0.1"/>
-		<import addon="script.extendedinfo" version="0.1"/>
-		<import addon="service.library.data.provider" version="0.1"/>
+		<import addon="plugin.program.super.favourites" version="1.0.43"/>
+		<import addon="plugin.video.metalliq" version="1.1.5"/>
+		<import addon="repository.q" version="0.0.0.1"/>
+		<import addon="script.favourites" version="6.0.3"/>
+		<import addon="script.extendedinfo" version="4.9.9c"/>
+		<import addon="service.library.data.provider" version="0.1.5"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"

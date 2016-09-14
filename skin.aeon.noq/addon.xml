@@ -6,10 +6,10 @@
 	provider-name="Created by BigNoid | Modded by SiLVO | Widgets by Mr. V | Glowbars by Houdin24 | Edited by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
-		<import addon="repository.q"/>
-		<import addon="script.grab.fanart" version="0.12.8"/>
-		<import addon="script.skinshortcuts" version="0.4.5"/>
-		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="repository.q" version="0.0.0.1"/>
+		<import addon="script.grab.fanart" version="0.14.1"/>
+		<import addon="script.skinshortcuts" version="0.5.4"/>
+		<import addon="service.library.data.provider" version="0.1.5"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"
