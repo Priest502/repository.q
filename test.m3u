@@ -1,0 +1,25 @@
+#EXTM3U
+#EXTINF:-1,Bein Sports HD 12
+http://192.99.40.156:25461/live/qkodi/qkodi/3279.m3u8
+#EXTINF:-1,Bein Sports HD 11
+http://192.99.40.156:25461/live/qkodi/qkodi/3278.m3u8
+#EXTINF:-1,beIN Sports 9 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3287.m3u8
+#EXTINF:-1,beIN Sports 8 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3286.m3u8
+#EXTINF:-1,beIN Sports 7 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3285.m3u8
+#EXTINF:-1,beIN Sports 6 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3284.m3u8
+#EXTINF:-1,beIN Sports 5 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3283.m3u8
+#EXTINF:-1,beIN Sports 4 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3282.m3u8
+#EXTINF:-1,beIN Sports 3 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3281.m3u8
+#EXTINF:-1,beIN Sports 2 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3280.m3u8
+#EXTINF:-1,beIN Sports 10 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3277.m3u8
+#EXTINF:-1,beIN Sports 1 HD
+http://192.99.40.156:25461/live/qkodi/qkodi/3276.m3u8
