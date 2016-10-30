@@ -1,0 +1,572 @@
+<keymap>
+  <global>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61662">ActivateWindow(ShutDownMenu)</key>                                                                                               <!-- Power        01 -->
+      <key id="61593">Mute</key>                                                                                                                       <!-- Mute         02 -->
+      <key id="61667">RunAddon(plugin.program.tbs)</key>                                                                                               <!-- Red          03 -->
+      <key id="61668">ActivateWindow(AddonBrowser)</key>                                                                                               <!-- Green        04 -->
+      <key id="61669">ActivateWindow(FileManager)</key>                                                                                                <!-- Yellow       05 -->
+      <key id="61670">RunScript(special://home/addons/script.openwindow/functions.py)</key>                                                            <!-- Blue         06 -->
+      <key id="61484">SkipPrevious</key>                                                                                                               <!-- SkipPrevious 07 -->
+      <key id="61472">PlayPause</key>                                                                                                                  <!-- PlayPause    08 -->
+      <key id="61486">SkipNext</key>                                                                                                                   <!-- SkipNext     09 -->
+      <key id="61592">RunScript(service.libreelec.settings)</key>                                                                                      <!-- WiFi         10 -->
+      <key id="61522">Rewind</key>                                                                                                                     <!-- Rewind       11 -->
+      <key id="61528">Stop</key>                                                                                                                       <!-- Stop         12 -->
+      <key id="61510">FastForward</key>                                                                                                                <!-- FastForward  13 -->
+      <key id="61656">ActivateWindow(SystemInfo)</key>                                                                                                 <!-- Menu         14 -->
+      <key id="61628">ActivateWindow(Music,musicdb://,return)</key>                                                                                    <!-- Music        15 -->
+      <key id="61638">ActivateWindow(Videos,videodb://movies/,return)</key>                                                                            <!-- Movies       16 -->
+      <key id="61636">ActivateWindow(Videos,videodb://tvshows/,return)</key>                                                                           <!-- TVShows      17 -->
+      <key id="61585">ActivateWindow(Pictures)</key>                                                                                                   <!-- Pictures     18 -->
+      <key id="61449">FullScreen</key>                                                                                                                 <!-- Tab          19 -->
+      <key id="61673">ActivateWindow(Favourites)</key>                                                                                                 <!-- Favourites   20 -->
+      <key id="61568">Up</key>                                                                                                                         <!-- Up           21 -->
+      <key id="61570">Left</key>                                                                                                                       <!-- Left         22 -->
+      <key id="61453">Select</key>                                                                                                                     <!-- Ok           23 -->
+      <key id="61571">Right</key>                                                                                                                      <!-- Right        24 -->
+      <key id="61569">Down</key>                                                                                                                       <!-- Down         25 -->
+      <key id="61665">ActivateWindow(Settings)</key>                                                                                                   <!-- Settings     26 -->
+      <key id="61467">Back</key>                                                                                                                       <!-- Return       27 -->
+      <key id="61483">VolumeUp</key>                                                                                                                   <!-- Vol+         28 -->
+      <key id="61539">VolumeDown</key>                                                                                                                 <!-- Vol-         29 -->
+      <key id="61587">ActivateWindow(Home)</key>                                                                                                       <!-- Home         30 -->
+      <key id="61584">ContextMenu</key>                                                                                                                <!-- ContextMenu  31 -->
+      <key id="61572">PageUp</key>                                                                                                                     <!-- PG Up+       32 -->
+      <key id="61624">PageDown</key>                                                                                                                   <!-- PG Down-     33 -->
+      <key id="61489">Number1</key>                                                                                                                    <!-- One          34 -->
+      <key id="61490">JumpSMS2</key>                                                                                                                   <!-- Two          35 -->
+      <key id="61491">JumpSMS3</key>                                                                                                                   <!-- Three        36 -->
+      <key id="61492">JumpSMS4</key>                                                                                                                   <!-- Four         37 -->
+      <key id="61493">JumpSMS5</key>                                                                                                                   <!-- Five         38 -->
+      <key id="61494">JumpSMS6</key>                                                                                                                   <!-- Six          39 -->
+      <key id="61495">JumpSMS7</key>                                                                                                                   <!-- Seven        40 -->
+      <key id="61496">JumpSMS8</key>                                                                                                                   <!-- Eight        41 -->
+      <key id="61497">JumpSMS9</key>                                                                                                                   <!-- Nine         42 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+      <key id="61488">Number0</key>                                                                                                                    <!-- Zero         44 -->
+      <key id="61448">Back</key>                                                                                                                       <!-- Back         45 -->
+    </keyboard>
+  </global>
+  <LoginScreen>
+    <keyboard name="TLBB-V8-LE">
+             <!-- Empty -->
+    </keyboard>
+  </LoginScreen>
+  <Home>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61449">FullScreen</key>                                                                                                                 <!-- Tab          19 -->
+      <key id="61673">ActivateWindow(Favourites)</key>                                                                                                 <!-- Favourites   20 -->
+      <key id="61587">FullScreen</key>                                                                                                                 <!-- Home         30 -->
+      <key id="61584">Playlist</key>                                                                                                                   <!-- ContextMenu  31 -->
+      <key id="61488">Playlist</key>                                                                                                                   <!-- Zero         44 -->
+      <key id="61677">ActivateWindow(1111)</key>                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </Home>
+  <SystemInfo>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61449">Back</key>                                                                                                                       <!-- Tab          19 -->
+    </keyboard>
+  </SystemInfo>
+  <Programs>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+    </keyboard>
+  </Programs>
+  <Settings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">ActivateWindow(Settings)</key>                                                                                                                                                           <!-- Settings     26 -->
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61677">ActivateWindow(1111)</key>                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </Settings>
+  <AppearanceSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                                                                                     <!-- Settings     26 -->
+    </keyboard>
+  </AppearanceSettings>
+  <VideosSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </VideosSettings>
+  <PVRSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </PVRSettings>
+  <MusicSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </MusicSettings>
+  <PicturesSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </PicturesSettings>
+  <WeatherSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </WeatherSettings>
+  <NetworkSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </NetworkSettings>
+  <SystemSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </SystemSettings>
+  <SkinSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </SkinSettings>
+  <VirtualKeyboard>
+    <keyboard>
+      <key id="61467">Backspace</key>                                                                                                                  <!-- Return       27 -->
+      <key id="61489">Number1</key>                                                                                                                    <!-- One          34 -->
+      <key id="61490">Number2</key>                                                                                                                    <!-- Two          35 -->
+      <key id="61491">Number3</key>                                                                                                                    <!-- Three        36 -->
+      <key id="61492">Number4</key>                                                                                                                    <!-- Four         37 -->
+      <key id="61493">Number5</key>                                                                                                                    <!-- Five         38 -->
+      <key id="61494">Number6</key>                                                                                                                    <!-- Six          39 -->
+      <key id="61495">Number7</key>                                                                                                                    <!-- Seven        40 -->
+      <key id="61496">Number8</key>                                                                                                                    <!-- Eight        41 -->
+      <key id="61497">Number9</key>                                                                                                                    <!-- Nine         42 -->
+      <key id="61488">Number0</key>                                                                                                                    <!-- Zero         44 -->
+    </keyboard>
+  </VirtualKeyboard>
+  <MyFiles>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Container.NextViewMode</key>                                                                                                     <!-- Red          03 -->
+      <key id="61668">Info</key>                                                                                                                       <!-- Green        04 -->
+      <key id="61669">SendClick(8)</key>                                                                                                               <!-- Yellow       05 -->
+      <key id="61670">SendClick(3)</key>                                                                                                               <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </MyFiles>
+  <MyMusicPlaylist>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Container.NextViewMode</key>                                                                                                     <!-- Red          03 -->
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+      <key id="61572">MoveItemUp</key>                                                                                                                 <!-- PG Up+       32 -->
+      <key id="61624">MoveItemDown</key>                                                                                                               <!-- PG Down-     33 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+      <key id="61488">Back</key>                                                                                                                       <!-- Zero         44 -->
+    </keyboard>
+  </MyMusicPlaylist>
+  <MyMusicPlaylistEditor>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Delete</key>                                                                                                                     <!-- Red          03 -->
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61572">MoveItemUp</key>                                                                                                                 <!-- PG Up+       32 -->
+      <key id="61624">MoveItemDown</key>                                                                                                               <!-- PG Down-     33 -->
+    </keyboard>
+  </MyMusicPlaylistEditor>
+  <MyMusicFiles>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Container.NextViewMode</key>                                                                                                     <!-- Red          03 -->
+      <key id="61668">Info</key>                                                                                                                       <!-- Green        04 -->
+      <key id="61669">SendClick(8)</key>                                                                                                               <!-- Yellow       05 -->
+      <key id="61670">SendClick(3)</key>                                                                                                               <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+      <key id="61488">ActivateWindow(MusicPlaylist)</key>                                                                                              <!-- Zero         44 -->
+    </keyboard>
+  </MyMusicFiles>
+  <MyMusicLibrary>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Container.NextViewMode</key>                                                                                                     <!-- Red          03 -->
+      <key id="61668">Info</key>                                                                                                                       <!-- Green        04 -->
+      <key id="61669">SendClick(8)</key>                                                                                                               <!-- Yellow       05 -->
+      <key id="61670">SendClick(3)</key>                                                                                                               <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+      <key id="61488">ActivateWindow(MusicPlaylist)</key>                                                                                              <!-- Zero         44 -->
+    </keyboard>
+  </MyMusicLibrary>
+  <FullscreenVideo>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">ActivateWindow(OSDVideoSettings)</key>
+      <key id="61667">ActivateWindow(SongInformation)</key>                                                                                            <!-- Red          03 -->
+      <key id="61668">ActivateWindow(OSDVideoSettings)</key>                                                                                           <!-- Green        04 -->
+      <key id="61669">ActivateWindow(OSDAudioSettings)</key>                                                                                           <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(VideoBookmarks)</key>                                                                                             <!-- Blue         06 -->
+      <key id="61484">SkipPrevious</key>                                                                                                               <!-- SkipPrevious 07 -->
+      <key id="61486">SkipNext</key>                                                                                                                   <!-- SkipNext     09 -->
+      <key id="61522">Rewind</key>                                                                                                                     <!-- Rewind       11 -->
+      <key id="61510">FastForward</key>                                                                                                                <!-- FastForward  13 -->
+      <key id="61656">OSD</key>                                                                                                                        <!-- Menu         14 -->
+      <key id="61628">AudioDelay</key>                                                                                                                 <!-- Music        15 -->
+      <key id="61585">AspectRatio</key>                                                                                                                <!-- Pictures     18 -->
+      <key id="61568">BigStepForward</key>                                                                                                             <!-- Up           21 -->
+      <key id="61570">StepBack</key>                                                                                                                   <!-- Left         22 -->
+      <key id="61571">StepForward</key>                                                                                                                <!-- Right        24 -->
+      <key id="61569">BigStepBack</key>                                                                                                                <!-- Down         25 -->
+      <key id="61467">OSD</key>                                                                                                                        <!-- Return       27 -->
+      <key id="61584">ActivateWindow(VideoPlaylist)</key>                                                                                              <!-- ContextMenu  31 -->
+      <key id="61572">SubtitleDelayPlus</key>                                                                                                          <!-- PG Up+       32 -->
+      <key id="61624">SubtitleDelayMinus</key>                                                                                                         <!-- PG Down-     33 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+      <key id="61448">FullScreen</key>                                                                                                                 <!-- Back         45 -->
+    </keyboard>
+  </FullscreenVideo>
+  <VideoTimeSeek>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61467">Select</key>                                                                                                                     <!-- Return       27 -->
+    </keyboard>
+  </VideoTimeSeek>
+  <FullscreenInfo>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61522">Rewind</key>                                                                                                                     <!-- Rewind       11 -->
+      <key id="61510">FastForward</key>                                                                                                                <!-- FastForward  13 -->
+      <key id="61656">OSD</key>                                                                                                                        <!-- Menu         14 -->
+      <key id="61677">Back</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </FullscreenInfo>
+  <PlayerControls>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61656">Back</key>                                                                                                                       <!-- Menu         14 -->
+    </keyboard>
+  </PlayerControls>
+  <Visualisation>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">ActivateWindow(1112)</key>
+      <key id="61667">RunScript(script.cu.lrclyrics)</key>                                                                                             <!-- Red          03 -->
+      <key id="61668">RunScript(special://xbmc/system/keymaps/tlbb/py_activate_click.py,500)</key>                                                     <!-- Green        04 -->
+      <key id="61669">Addon.Default.OpenSettings(xbmc.player.musicviz)</key>                                                                           <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(VisualisationPresetList)</key>                                                                                    <!-- Blue         06 -->
+      <key id="61486">SkipNext</key>                                                                                                                   <!-- SkipNext     09 -->
+      <key id="61522">Rewind</key>                                                                                                                     <!-- Rewind       11 -->
+      <key id="61510">FastForward</key>                                                                                                                <!-- FastForward  13 -->
+      <key id="61656">OSD</key>                                                                                                                        <!-- Menu         14 -->
+      <key id="61568">RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(PVROSDChannels)","Action(IncreaseRating)")</key>        <!-- Up           21 -->
+      <key id="61570">SkipPrevious</key>                                                                                                               <!-- Left         22 -->
+      <key id="61569">RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(PVROSDChannels)","Action(DecreaseRating)")</key>        <!-- Down         25 -->
+      <key id="61467">OSD</key>                                                                                                                        <!-- Return       27 -->
+      <key id="61584">RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(PVROSDChannels)","ActivateWindow(MusicPlaylist)")</key> <!-- ContextMenu  31 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+      <key id="61448">FullScreen</key>                                                                                                                 <!-- Back         45 -->
+    </keyboard>
+  </Visualisation>
+  <MusicOSD>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">ActivateWindow(1112)</key>
+      <key id="61667">RunScript(script.cu.lrclyrics)</key>                                                                                             <!-- Red          03 -->
+      <key id="61668">SendClick(500)</key>                                                                                                             <!-- Green        04 -->
+      <key id="61669">Addon.Default.OpenSettings(xbmc.player.musicviz)</key>                                                                           <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(VisualisationPresetList)</key>                                                                                    <!-- Blue         06 -->
+      <key id="61484">SkipPrevious</key>                                                                                                               <!-- SkipPrevious 07 -->
+      <key id="61486">SkipNext</key>                                                                                                                   <!-- SkipNext     09 -->
+      <key id="61522">Rewind</key>                                                                                                                     <!-- Rewind       11 -->
+      <key id="61510">FastForward</key>                                                                                                                <!-- FastForward  13 -->
+      <key id="61656">Back</key>                                                                                                                       <!-- Menu         14 -->
+      <key id="61584">ActivateWindow(MusicPlaylist)</key>                                                                                              <!-- ContextMenu  31 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+    </keyboard>
+  </MusicOSD>
+  <VisualisationSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61484">SkipPrevious</key>                                                                                                               <!-- SkipPrevious 07 -->
+      <key id="61486">SkipNext</key>                                                                                                                   <!-- SkipNext     09 -->
+      <key id="61522">Rewind</key>                                                                                                                     <!-- Rewind       11 -->
+      <key id="61510">FastForward</key>                                                                                                                <!-- FastForward  13 -->
+      <key id="61656">Back</key>                                                                                                                       <!-- Menu         14 -->
+      <key id="61584">ActivateWindow(MusicPlaylist)</key>                                                                                              <!-- ContextMenu  31 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+    </keyboard>
+  </VisualisationSettings>
+  <VisualisationPresetList>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61670">Close</key>                                                                                                                      <!-- Blue         06 -->
+      <key id="61484">SkipPrevious</key>                                                                                                               <!-- SkipPrevious 07 -->
+      <key id="61486">SkipNext</key>                                                                                                                   <!-- SkipNext     09 -->
+      <key id="61522">Rewind</key>                                                                                                                     <!-- Rewind       11 -->
+      <key id="61510">FastForward</key>                                                                                                                <!-- FastForward  13 -->
+      <key id="61656">Back</key>                                                                                                                       <!-- Menu         14 -->
+      <key id="61584">ActivateWindow(MusicPlaylist)</key>                                                                                              <!-- ContextMenu  31 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+    </keyboard>
+  </VisualisationPresetList>
+  <SlideShow>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61472">Pause</key>                                                                                                                      <!-- PlayPause    08 -->
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61656">ActivateWindow(PlayerControls)</key>                                                                                             <!-- Menu         14 -->
+      <key id="61467">Rotate</key>                                                                                                                     <!-- Return       27 -->
+      <key id="61572">ZoomIn</key>                                                                                                                     <!-- PG Up+       32 -->
+      <key id="61624">ZoomOut</key>                                                                                                                    <!-- PG Down-     33 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+    </keyboard>
+  </SlideShow>
+  <ScreenCalibration>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61668">ResetCalibration</key>                                                                                                           <!-- Green        04 -->
+      <key id="61669">NextResolution</key>                                                                                                             <!-- Yellow       05 -->
+      <key id="61467">NextCalibration</key>                                                                                                            <!-- Return       27 -->
+    </keyboard>
+  </ScreenCalibration>
+  <GUICalibration>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61668">ResetCalibration</key>                                                                                                           <!-- Green        04 -->
+      <key id="61467">NextCalibration</key>                                                                                                            <!-- Return       27 -->
+    </keyboard>
+  </GUICalibration>
+  <VideoOSD>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(Teletext)","ActivateWindow(SubtitleSearch)")</key>      <!-- Red          03 -->
+      <key id="61668">ActivateWindow(OSDVideoSettings)</key>                                                                                           <!-- Green        04 -->
+      <key id="61669">ActivateWindow(OSDAudioSettings)</key>                                                                                           <!-- Yellow       05 -->
+      <key id="61670">RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"PlayerControl(Record)","ActivateWindow(VideoBookmarks)")</key>         <!-- Blue         06 -->
+      <key id="61656">Back</key>                                                                                                                       <!-- Menu         14 -->
+      <key id="61628">AudioDelay</key>                                                                                                                 <!-- Music        15 -->
+      <key id="61585">AspectRatio</key>                                                                                                                <!-- Pictures     18 -->
+      <key id="61584">ActivateWindow(VideoPlaylist)</key>                                                                                              <!-- ContextMenu  31 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+    </keyboard>
+  </VideoOSD>
+  <VideoMenu>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">ActivateWindow(SongInformation)</key>                                                                                            <!-- Red          03 -->
+      <key id="61668">ActivateWindow(OSDVideoSettings)</key>                                                                                           <!-- Green        04 -->
+      <key id="61669">ActivateWindow(OSDAudioSettings)</key>                                                                                           <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(VideoBookmarks)</key>                                                                                             <!-- Blue         06 -->
+      <key id="61484">SkipPrevious</key>                                                                                                               <!-- SkipPrevious 07 -->
+      <key id="61472">Select</key>                                                                                                                     <!-- PlayPause    08 -->
+      <key id="61486">SkipNext</key>                                                                                                                   <!-- SkipNext     09 -->
+      <key id="61656">OSD</key>                                                                                                                        <!-- Menu         14 -->
+      <key id="61628">AudioDelay</key>                                                                                                                 <!-- Music        15 -->
+      <key id="61585">AspectRatio</key>                                                                                                                <!-- Pictures     18 -->
+      <key id="61467">Select</key>                                                                                                                     <!-- Return       27 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+      <key id="61448">FullScreen</key>                                                                                                                 <!-- Back         45 -->
+    </keyboard>
+  </VideoMenu>
+     <OSDVideoSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61668">Close</key>                                                                                                                      <!-- Green        04 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </OSDVideoSettings>
+  <OSDAudioSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61669">Close</key>                                                                                                                      <!-- Yellow       05 -->
+             <key id="61677">Info</key>                                                                                                                <!-- Info         43 -->
+    </keyboard>
+  </OSDAudioSettings>
+  <VideoBookmarks>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Delete</key>                                                                                                                     <!-- Red          03 -->
+      <key id="61670">Close</key>                                                                                                                      <!-- Blue         06 -->
+    </keyboard>
+  </VideoBookmarks>
+  <MyVideoLibrary>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Container.NextViewMode</key>                                                                                                     <!-- Red          03 -->
+      <key id="61668">Info</key>                                                                                                                       <!-- Green        04 -->
+      <key id="61669">SendClick(8)</key>                                                                                                               <!-- Yellow       05 -->
+      <key id="61670">SendClick(3)</key>                                                                                                               <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+      <key id="61497">ToggleWatched</key>                                                                                                              <!-- Nine         42 -->
+      <key id="61488">ActivateWindow(VideoPlaylist)</key>                                                                                              <!-- Zero         44 -->
+    </keyboard>
+  </MyVideoLibrary>
+  <MyVideoFiles>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Container.NextViewMode</key>                                                                                                     <!-- Red          03 -->
+      <key id="61668">Info</key>                                                                                                                       <!-- Green        04 -->
+      <key id="61669">SendClick(8)</key>                                                                                                               <!-- Yellow       05 -->
+      <key id="61670">SendClick(3)</key>                                                                                                               <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+      <key id="61497">ToggleWatched</key>                                                                                                              <!-- Nine         42 -->
+      <key id="61488">ActivateWindow(VideoPlaylist)</key>                                                                                              <!-- Zero         44 -->
+    </keyboard>
+  </MyVideoFiles>
+  <MyVideoPlaylist>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Delete</key>                                                                                                                     <!-- Red          03 -->
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+      <key id="61572">MoveItemUp</key>                                                                                                                 <!-- PG Up+       32 -->
+      <key id="61624">MoveItemDown</key>                                                                                                               <!-- PG Down-     33 -->
+      <key id="61488">Back</key>                                                                                                                       <!-- Zero         44 -->
+    </keyboard>
+  </MyVideoPlaylist>
+  <MyPictures>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Container.NextViewMode</key>                                                                                                     <!-- Red          03 -->
+      <key id="61669">SendClick(7)</key>                                                                                                               <!-- Yellow       05 -->
+      <key id="61668">Info</key>                                                                                                                       <!-- Green        04 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </MyPictures>
+  <ContextMenu>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61656">Back</key>                                                                                                                       <!-- Menu         14 -->
+    </keyboard>
+  </ContextMenu>
+  <Scripts>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61677">Info</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </Scripts>
+  <MusicInformation>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61677">Back</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </MusicInformation>
+  <MovieInformation>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61677">Back</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </MovieInformation>
+  <PictureInfo>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61472">Pause</key>                                                                                                                      <!-- PlayPause    08 -->
+      <key id="61572">NextPicture</key>                                                                                                                <!-- PG Up+       32 -->
+      <key id="61624">PreviousPicture</key>                                                                                                            <!-- PG Down-     33 -->
+      <key id="61677">Back</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </PictureInfo>
+  <Teletext>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Close</key>                                                                                                                      <!-- Red          03 -->
+    </keyboard>
+  </Teletext>
+  <Favourites>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Delete</key>                                                                                                                     <!-- Red          03 -->
+      <key id="61669">Close</key>                                                                                                                      <!-- Yellow       05 -->
+      <key id="61572">MoveItemUp</key>                                                                                                                 <!-- PG Up+       32 -->
+      <key id="61624">MoveItemDown</key>                                                                                                               <!-- PG Down-     33 -->
+    </keyboard>
+  </Favourites>
+  <NumericInput>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61448">Backspace</key>                                                                                                                  <!-- Back         45 -->
+    </keyboard>
+  </NumericInput>
+  <FullscreenLiveTV>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">ActivateWindow(Teletext)</key>                                                                                                   <!-- Red          03 -->
+      <key id="61668">ActivateWindow(OSDVideoSettings)</key>                                                                                           <!-- Green        04 -->
+      <key id="61669">ActivateWindow(OSDAudioSettings)</key>                                                                                           <!-- Yellow       05 -->
+      <key id="61670">PlayerControl(Record)</key>                                                                                                      <!-- Blue         06 -->
+      <key id="61656">OSD</key>                                                                                                                        <!-- Menu         14 -->
+      <key id="61628">AudioDelay</key>                                                                                                                 <!-- Music        15 -->
+      <key id="61585">AspectRatio</key>                                                                                                                <!-- Pictures     18 -->
+      <key id="61568">ActivateWindow(PVROSDChannels)</key>                                                                                             <!-- Up           21 -->
+      <key id="61570">StepBack</key>                                                                                                                   <!-- Left         22 -->
+      <key id="61571">StepForward</key>                                                                                                                <!-- Right        24 -->
+      <key id="61569">ActivateWindow(PVROSDChannels)</key>                                                                                             <!-- Down         25 -->
+      <key id="61584">ActivateWindowAndFocus(MyPVR, 31,0, 10,0)</key>                                                                                  <!-- ContextMenu  31 -->
+      <key id="61572">ChannelUp</key>                                                                                                                  <!-- PG Up+       32 -->
+      <key id="61624">ChannelDown</key>                                                                                                                <!-- PG Down-     33 -->
+      <key id="61677">CodecInfo</key>                                                                                                                  <!-- Info         43 -->
+    </keyboard>
+  </FullscreenLiveTV>
+  <MyPVR>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61665">ActivateWindow(PVRSettings)</key>
+      <key id="61667">Delete</key>                                                                                                                     <!-- Red          03 -->
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61572">ChannelUp</key>                                                                                                                  <!-- PG Up+       32 -->
+      <key id="61624">ChannelDown</key>                                                                                                                <!-- PG Down-     33 -->
+    </keyboard>
+  </MyPVR>
+  <PVROSDChannels>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61467">RunScript(special://xbmc/system/keymaps/tlbb/py_select_close.py)</key>                                                                    <!-- Return       27 -->
+      <key id="61572">ChannelUp</key>                                                                                                                  <!-- PG Up+       32 -->
+      <key id="61624">ChannelDown</key>                                                                                                                <!-- PG Down-     33 -->
+      <key id="61448">Close</key>                                                                                                                      <!-- Back         45 -->
+    </keyboard>
+  </PVROSDChannels>
+  <PVROSDGuide>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61677">Select</key>                                                                                                                     <!-- Info         43 -->
+      <key id="61448">Close</key>                                                                                                                      <!-- Back         45 -->
+    </keyboard>
+  </PVROSDGuide>
+  <PVRGuideInfo>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61677">Close</key>                                                                                                                      <!-- Info         43 -->
+      <key id="61448">Close</key>                                                                                                                      <!-- Back         45 -->
+    </keyboard>
+  </PVRGuideInfo>
+  <PVROSDDirector>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61448">Close</key>                                                                                                                      <!-- Back         45 -->
+    </keyboard>
+  </PVROSDDirector>
+  <PVROSDCutter>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61448">Close</key>                                                                                                                      <!-- Back         45 -->
+    </keyboard>
+  </PVROSDCutter>
+  <MyTVSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61448">PreviousMenu</key>                                                                                                               <!-- Back         45 -->
+    </keyboard>
+  </MyTVSettings>
+  <FileBrowser>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Delete</key>                                                                                                                     <!-- Red          03 -->
+      <key id="61668">Highlight</key>                                                                                                                  <!-- Green        04 -->
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+    </keyboard>
+  </FileBrowser>
+  <ShutdownMenu>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61448">Close</key>                                                                                                                      <!-- Back         45 -->
+    </keyboard>
+  </ShutdownMenu>
+  <AddonInformation>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61677">Back</key>                                                                                                                       <!-- Info         43 -->
+    </keyboard>
+  </AddonInformation>
+  <AddonSettings>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61667">Delete</key>                                                                                                                     <!-- Red          03 -->
+    </keyboard>
+  </AddonSettings>
+  <Weather>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61669">ActivateWindow(Favourites)</key>                                                                                                 <!-- Yellow       05 -->
+      <key id="61670">ActivateWindow(Videos,addons://sources/video/,return)</key>                                                                      <!-- Blue         06 -->
+      <key id="61665">SetFocus(9111)</key>                                                                                                             <!-- Settings     26 -->
+    </keyboard>
+  </Weather>
+  <SliderDialog>
+    <keyboard name="TLBB-V8-LE">
+      <key id="61628">Back</key>                                                                                                                       <!-- Music        15 -->
+    </keyboard>
+  </SliderDialog>
+  <window1111>
+    <keyboard name="TLBB-V8-LE">
+      <!-- <red>SendClick(81)</red> -->                  <!-- NOT WORKING YET -->                                                                      <!-- Red          03 -->
+      <!-- <red>Control.Message(81,click,1111)</red> --> <!-- NOT WORKING YET -->                                                                      <!-- Red          03 -->
+      <key id="61669">Control.Move(4001,-1)</key>                                                                                                      <!-- Yellow       05 -->
+      <key id="61670">Control.Move(4001,1)</key>                                                                                                       <!-- Blue         06 -->
+    </keyboard>
+  </window1111>
+</keymap>
