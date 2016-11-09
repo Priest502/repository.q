@@ -76,7 +76,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.0" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q" version="0.0.0.1"/>
@@ -129,7 +129,7 @@
 		<summary lang="en">TMDb, TVDb, Trakt, AudioDb and LastFM browser</summary>
 		<description lang="en">Browse The MovieDb, The TVDb, Trakt, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
 		<summary lang="nl">Blader door TMDb, TVDb, Trakt, AudioDb en LastFM</summary>
-		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberem het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
+		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberen het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
 		<supportedcontent>
 			<content>movies</content>
 			<content>tvshows</content>
@@ -201,30 +201,47 @@
 	</extension>
 </addon>
 
-<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC Addon REPOsitory" version="3.0.1" provider-name="XvBMC Nederland">
-	<extension point="xbmc.addon.repository" name="XvBMC Addon Repo/Depot">
+<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory" version="4.0.1" provider-name="EPiC XvBMC Nederland">
+	<extension point="xbmc.addon.repository" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/zips/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
+			<hashes>false</hashes>
+		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/zips/</datadir>
 			<hashes>false</hashes>
 		</dir>
-			<info compressed="false">https://raw.github.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
-			<checksum>https://raw.github.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/XvBMC/repository.xvbmc/master/zips/</datadir>
-			<hashes>false</hashes>
+		<dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.github.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
+		<checksum>https://raw.github.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/XvBMC/repository.xvbmc/master/zips/</datadir>
+		<hashes>false</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">XvBMC The Netherlands Addon REPOsitory</summary>
-		<summary lang="nl">XvBMC Nederland Addon REPOsitory</summary>
-		<description lang="en">XvBMC The Netherlands Addon Repository | XvBMC-NL Addon Depot  |  be sure to check out our FB-page: https://www.facebook.com/groups/XvBMCnederland/ !!! USE AT YOUR OWN RISK !!!</description>
-		<description lang="nl">XvBMC Nederland Addon Repository | XvBMC-NL Addon Depot  |  en volg zeker ook onze Facebook pagina: https://www.facebook.com/groups/XvBMCnederland/ !!! USE AT YOUR OWN RISK !!!</description>
-		<disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
-		<disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+		<summary lang="en">XvBMC The Netherlands (Add-ons) REPOsitory</summary>
+		<summary lang="nl">XvBMC Nederland (Add-ons) REPOsitory</summary>
+		<description lang="en">XvBMC The Netherlands (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  be sure to check out our FB-page: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+		<description lang="nl">XvBMC Nederland (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  en volg zeker ook onze Facebook pagina: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+		<disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+		<disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
 		<forum>https://www.fb.com/groups/XvBMCnederland/</forum>
-		<website>https://www.fb.com/groups/XvBMCnederland/</website>
+		<website>http://bit.ly/XvBMC-NL</website>
 		<source>https://archive.org/download/repository.xvbmc/</source>
 	</extension>
 </addon>
@@ -309,10 +326,10 @@
 	provider-name="Created by BigNoid | Modded by SiLVO | Widgets by Mr. V | Glowbars by Houdin24 | Edited by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
-		<import addon="repository.q"/>
-		<import addon="script.grab.fanart" version="0.12.8"/>
-		<import addon="script.skinshortcuts" version="0.4.5"/>
-		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="repository.q" version="0.0.0.1"/>
+		<import addon="script.grab.fanart" version="0.14.1"/>
+		<import addon="script.skinshortcuts" version="0.5.4"/>
+		<import addon="service.library.data.provider" version="0.1.5"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"
@@ -387,9 +404,9 @@
 <addon id="skin.amber.qd" version="2.1.3" name="Amber Q'd" provider-name="Jester, Pecinko, edited by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
-		<import addon="repository.q"/>
-		<import addon="script.favourites" version="6.0.2"/>
-		<import addon="service.skin.widgets" version="0.0.29"/>
+		<import addon="repository.q" version="0.0.0.1"/>
+		<import addon="script.favourites" version="6.0.3"/>
+		<import addon="service.skin.widgets" version="0.0.32"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin" debugging="false">
