@@ -3972,9 +3972,7 @@ msgctxt "#1208"
 msgid "Mount SMB shares"
 msgstr ""
 
-msgctxt "#1209"
-msgid "Force SMB v1"
-msgstr ""
+#empty string with id 1209
 
 #: xbmc/event/windows/GUIWindowEventLog.cpp
 msgctxt "#1210"
@@ -4034,10 +4032,6 @@ msgctxt "#1223"
 msgid "Disabled"
 msgstr ""
 
-msgctxt "#1224"
-msgid "Overwrite existing configuration"
-msgstr ""
-
 #empty strings from id 1224 to 1225
 
 msgctxt "#1226"
@@ -4092,41 +4086,7 @@ msgctxt "#1260"
 msgid "Announce services to other systems"
 msgstr ""
 
-#: system/settings/settings.xml
-msgctxt "#1261"
-msgid "MySQL"
-msgstr ""
-
-#: system/settings/settings.xml
-msgctxt "#1262"
-msgid "Setup remote MySQL database connection"
-msgstr ""
-
-#: system/settings/settings.xml
-msgctxt "#1263"
-msgid "Enable/Disable MySQL setup"
-msgstr ""
-
-#: system/settings/settings.xml
-msgctxt "#1264"
-msgid "Define server port"
-msgstr ""
-
-#: system/settings/settings.xml
-msgctxt "#1265"
-msgid "Define video database name"
-msgstr ""
-
-#: system/settings/settings.xml
-msgctxt "#1266"
-msgid "Define music database name"
-msgstr ""
-
-#: system/settings/settings.xml
-msgctxt "#1267"
-msgid "Name to be used to connect to or create new database"
-msgstr ""
-
+#empty strings from id 1261 to 1267
 
 #: system/settings/settings.xml
 msgctxt "#1268"
@@ -5326,12 +5286,7 @@ msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr ""
 
-#: unknown
-msgctxt "#12374"
-msgid "Loading database, please wait"
-msgstr ""
-
-#empty strings from id 12375
+#empty strings from id 12374 to 12375
 
 #: xbmc\settings\dialogs\GUIDialogAudioDSPSettings.cpp
 #: xbmc\video\dialogs\GUIDialogAudioSubtitleSettings.cpp
@@ -8011,7 +7966,7 @@ msgstr ""
 
 #: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
 msgctxt "#16020"
-msgid "Yadif (2X)"
+msgid "Deinterlace"
 msgstr ""
 
 #: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
@@ -8080,7 +8035,7 @@ msgstr ""
 
 #: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
 msgctxt "#16036"
-msgid "Yadif"
+msgid "Deinterlace (half)"
 msgstr ""
 
 msgctxt "#16037"
@@ -8264,7 +8219,7 @@ msgstr ""
 
 #: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
 msgctxt "#16313"
-msgid "Sharpness"
+msgid "VDPAU - Sharpness"
 msgstr ""
 
 #: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
@@ -8383,12 +8338,7 @@ msgctxt "#16335"
 msgid "IMX - Fast motion (double)"
 msgstr ""
 
-#: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
-msgctxt "#16336"
-msgid "Software - FFmpeg"
-msgstr ""
-
-#empty strings from id 16337 to 16399
+#empty strings from id 16336 to 16399
 
 #: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
 msgctxt "#16400"
@@ -10639,10 +10589,7 @@ msgctxt "#20072"
 msgid "Make sure the selected folder is writable and that the new folder name is valid"
 msgstr ""
 
-#: xbmc/windows/GUIWindowFileManager.cpp
-msgctxt "#20073"
-msgid "Android content"
-msgstr ""
+#empty string with id 20073
 
 #: xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#20074"
@@ -11222,11 +11169,7 @@ msgctxt "#20244"
 msgid "Android apps"
 msgstr ""
 
-msgctxt "#20245"
-msgid "Android Settings"
-msgstr ""
-
-#empty strings from id 20246 to 20249
+#empty strings from id 20245 to 20249
 
 msgctxt "#20250"
 msgid "Party on! (videos)"
@@ -13762,7 +13705,7 @@ msgstr ""
 
 #: xbmc/addons/AddonInstaller.cpp
 msgctxt "#24101"
-msgid "Would you like to download this add-on?"
+msgid "Due to the nature of third party addons we cannot guarantee the legality of the content. Please check your local laws before proceeding. Would you like to install?"
 msgstr ""
 
 #: xbmc/Application.cpp
@@ -15412,15 +15355,7 @@ msgctxt "#36012"
 msgid "Couldn't initialise the CEC adapter. Please check your settings."
 msgstr ""
 
-#: xbmc/peripherals/devices/peripheralcecadapter.cpp
-msgctxt "#36013"
-msgid "User,password and host must be set,"
-msgstr ""
-
-#: xbmc/peripherals/devices/peripheralcecadapter.cpp
-msgctxt "#36014"
-msgid "disabling MYSQL configuration"
-msgstr ""
+#empty strings from id 36013 to 36014
 
 #: system/peripherals.xml
 msgctxt "#36015"
@@ -15982,7 +15917,7 @@ msgstr ""
 #. Description of setting "Videos -> Playback -> Sync playback to display" with label #13510
 #: system/settings/settings.xml
 msgctxt "#36166"
-msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgid "Synchronise the video to the refresh rate of the monitor."
 msgstr ""
 
 #. Description of setting "Appearance -> International -> Time format" with label #14107
@@ -17505,19 +17440,7 @@ msgctxt "#36461"
 msgid "Notification event describe regular processes and actions performed by the system or the user."
 msgstr ""
 
-#. Description of settings category "Services -> SMB Client" with label #1209
-#: system/settings/settings.xml
-msgctxt "#36462"
-msgid "Force ver 1 of the SMB protocol. Might solve connection issues."
-msgstr ""
-
-#. Description of settings category "Services -> SMB Client" with label #1224
-#: system/settings/settings.xml
-msgctxt "#36463"
-msgid "Overwrite the SMB client configuration (smb.conf) on restart"
-msgstr ""
-
-#empty strings from id 36464 to 36499
+#empty strings from id 36462 to 36499
 #end reservation
 
 #. label of a setting for the stereoscopic 3D mode of the GUI that is/should be applied
@@ -18013,7 +17936,7 @@ msgstr ""
 
 #: system/settings/rbp.xml
 msgctxt "#37027"
-msgid "1080"
+msgid "540"
 msgstr ""
 
 #: system/settings/rbp.xml
@@ -18121,12 +18044,7 @@ msgctxt "#37045"
 msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
 msgstr ""
 
-#: system/settings/settings.xml
-msgctxt "#37046"
-msgid "Remove dangling thumbnails."
-msgstr ""
-
-#empty strings from id 37047 to 38007
+#empty strings from id 37046 to 38006
 
 #: system/settings/settings.xml
 msgctxt "#38007"
@@ -18208,9 +18126,7 @@ msgctxt "#38020"
 msgid "Enables decoding of high quality DTS-HD audio streams. Note: This increases CPU load and is only available when DTS and DTS-HD audio passthrough are disabled."
 msgstr ""
 
-msgctxt "#38021"
-msgid "Info"
-msgstr ""
+#empty string with id 38021
 
 #. Used for the viewstate selection
 #: xbmc/video/dialogs/GUIDialogVideoInfo.cpp
@@ -18263,6 +18179,118 @@ msgctxt "#39004"
 msgid "Export"
 msgstr ""
 
-msgctxt "#3905"
+msgctxt "#39005"
 msgid "Exports nfo, thumbnail & fanart near the media file"
+msgstr ""
+
+msgctxt "#39958"
+msgid " submenu"
+msgstr ""
+
+msgctxt "#39959"
+msgid "Edit items in the "
+msgstr ""
+
+msgctxt "#39960"
+msgid "Add items to the "
+msgstr ""
+
+msgctxt "#39961"
+msgid "Remove items from the "
+msgstr ""
+
+msgctxt "#39962"
+msgid " menu"
+msgstr ""
+
+msgctxt "#39963"
+msgid "edit"
+msgstr ""
+
+msgctxt "#39964"
+msgid "comedy"
+msgstr ""
+
+msgctxt "#39965"
+msgid "cooking"
+msgstr ""
+
+msgctxt "#39966"
+msgid "fitness"
+msgstr ""
+
+msgctxt "#39967"
+msgid "gaming"
+msgstr ""
+
+msgctxt "#39968"
+msgid "kids"
+msgstr ""
+
+msgctxt "#39969"
+msgid "live tv"
+msgstr ""
+
+msgctxt "#39970"
+msgid "movies"
+msgstr ""
+
+msgctxt "#39971"
+msgid "music"
+msgstr ""
+
+msgctxt "#39972"
+msgid "musicvideos"
+msgstr ""
+
+msgctxt "#39973"
+msgid "news"
+msgstr ""
+
+msgctxt "#39974"
+msgid "sports"
+msgstr ""
+
+msgctxt "#39975"
+msgid "technology"
+msgstr ""
+
+msgctxt "#39976"
+msgid "travel"
+msgstr ""
+
+msgctxt "#39977"
+msgid "tv shows"
+msgstr ""
+
+msgctxt "#39978"
+msgid "world"
+msgstr ""
+
+msgctxt "#39979"
+msgid "youtube"
+msgstr ""
+
+msgctxt "#39980"
+msgid "maintenance"
+msgstr ""
+
+msgctxt "#39981"
+msgid "xxx"
+msgstr ""
+
+msgctxt "#39982"
+msgid "main"
+msgstr ""
+
+msgctxt "#39983"
+msgid "+-"
+msgstr ""
+
+msgctxt "#39984"
+msgid "Media"
+msgstr ""
+
+msgctxt "#39985"
+msgid "Android Apps"
 msgstr ""
