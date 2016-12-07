@@ -1,0 +1,594 @@
+<keymap>
+	<global>
+		<keyboard name="The Little Black Box Remote">
+			<power>ActivateWindow(ShutdownMenu)</power>					<!-- Button 01 : Power -->
+			<mute>Mute</mute>											<!-- Button 02 : Mute -->
+			<red>Close</red>											<!-- Button 03 : Red -->
+			<green>Close</green>										<!-- Button 04 : Green -->
+			<yellow>Close</yellow>										<!-- Button 05 : Yellow -->
+			<blue>Close</blue>											<!-- Button 06 : Blue -->
+			<comma>SkipPrevious</comma>									<!-- Button 07 : Previous -->
+			<play_pause>PlayPause</play_pause>							<!-- Button 08 : PlayPause -->
+			<dot>SkipNext</dot>											<!-- Button 09 : Next -->
+			<f9>RunScript(service.libreelec.settings)</f9>				<!-- Button 10 : Wifi -->
+			<rewind>Rewind</rewind>										<!-- Button 11 : Rewind -->
+			<stop>Stop</stop>											<!-- Button 12 : Stop -->
+			<fastforward>FastForward</fastforward>						<!-- Button 13 : FastForward -->
+			<menu>ActivateWindow(PlayerControls)</menu>					<!-- Button 14 : MENU -->
+			<f2>ActivateWindow(Music,musicdb://,return)</f2>			<!-- Button 15 : Music -->
+			<f3>ActivateWindow(Videos,videodb://movies/,return)</f3>	<!-- Button 16 : Movies -->
+			<f4>ActivateWindow(Videos,videodb://tvshows/,return)</f4>	<!-- Button 17 : TVShows -->
+			<f5>ActivateWindow(Pictures,return)</f5>					<!-- Button 18 : Pictures -->
+			<tab>Fullscreen</tab>										<!-- Button 19 : TAB -->
+			<favorites>ActivateWindow(Favourites)</favorites>			<!-- Button 20 : FAV -->
+			<up>Up</up>													<!-- Button 21 : Up -->
+			<left>Left</left>											<!-- Button 22 : Left -->
+			<select>Select</select>										<!-- Button 23 : Ok -->
+			<right>Right</right>										<!-- Button 24 : Right -->
+			<down>Down</down>											<!-- Button 25 : Down -->
+			<config>ActivateWindow(Settings)</config>					<!-- Button 26 : Settings -->
+			<backspace>Back</backspace>									<!-- Button 27 : Return -->
+			<volume_up>VolumeUp</volume_up>								<!-- Button 28 : VOL+ -->
+			<volume_down>VolumeDown</volume_down>						<!-- Button 29 : VOL- -->
+			<home>ActivateWindow(Home)</home>							<!-- Button 30 : Home -->
+			<f1>ContextMenu</f1>										<!-- Button 31 : ContextMenu -->
+			<pageup>PageUp</pageup>										<!-- Button 32 : PG+ -->
+			<pagedown>PageDown</pagedown>								<!-- Button 33 : PG- -->
+			<one>Number1</one>											<!-- Button 34 : 1 -->
+			<two>JumpSMS2</two>											<!-- Button 35 : 2 -->
+			<three>JumpSMS3</three>										<!-- Button 36 : 3 -->
+			<four>JumpSMS4</four>										<!-- Button 37 : 4 -->
+			<five>JumpSMS5</five>										<!-- Button 38 : 5 -->
+			<six>JumpSMS6</six>											<!-- Button 39 : 6 -->
+			<seven>JumpSMS7</seven>										<!-- Button 30 : 7 -->
+			<eight>JumpSMS8</eight>										<!-- Button 41 : 8 -->
+			<nine>JumpSMS9</nine>										<!-- Button 42 : 9 -->
+			<help>Info</help>											<!-- Button 43 : Info -->
+			<zero>Number0</zero>										<!-- Button 44 : 0 -->
+			<delete>Delete</delete>										<!-- Button 45 : BACK -->
+		</keyboard>
+	</global>
+	<LoginScreen>
+		<keyboard name="The Little Black Box Remote">
+		<!-- Empty -->
+		</keyboard>
+	</LoginScreen>
+	<Home>
+		<keyboard name="The Little Black Box Remote">
+			<help>ActivateWindow(1111)</help>
+			<f1>Playlist</f1>
+			<zero>Playlist</zero>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>RunScript(script.openvpn, location)</blue>
+		</keyboard>
+	</Home>
+	<SystemInfo>
+		<keyboard name="The Little Black Box Remote">
+			<help>Back</help>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</SystemInfo>
+	<Programs>
+		<keyboard name="The Little Black Box Remote">
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</Programs>
+	<Settings>
+		<keyboard name="The Little Black Box Remote">
+			<config>Back</config>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+			<help>ActivateWindow(1111)</help>
+		</keyboard>
+	</Settings>
+	<AppearanceSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</AppearanceSettings>
+	<VideosSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</VideosSettings>
+	<PVRSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</PVRSettings>
+	<MusicSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</MusicSettings>
+	<PicturesSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</PicturesSettings>
+	<WeatherSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</WeatherSettings>
+	<NetworkSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</NetworkSettings>
+	<SystemSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</SystemSettings>
+	<SkinSettings>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+		</keyboard>
+	</SkinSettings>
+	<VirtualKeyboard>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Backspace</backspace>
+		</keyboard>
+	</VirtualKeyboard>
+	<MyFiles>
+		<keyboard name="The Little Black Box Remote">
+			<fastforward>ToggleWatched</fastforward>
+			<rewind>SendClick(10)</rewind>
+			<config>SetFocus(9111)</config>
+			<red>Container.NextViewMode</red>
+			<green>Info</green>
+			<yellow>SendClick(8)</yellow>
+			<blue>SendClick(3)</blue>
+		</keyboard>
+	</MyFiles>
+	<MyMusicPlaylist>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+			<zero>Back</zero>
+			<pageup>MoveItemUp</pageup>
+			<pagedown>MoveItemDown</pagedown>
+			<red>Container.NextViewMode</red>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+			<help>Info</help>
+		</keyboard>
+	</MyMusicPlaylist>
+	<MyMusicPlaylistEditor>
+		<keyboard name="The Little Black Box Remote">
+			<pageup>MoveItemUp</pageup>
+			<pagedown>MoveItemDown</pagedown>
+			<red>Delete</red>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</MyMusicPlaylistEditor>
+	<MyMusicFiles>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+			<zero>ActivateWindow(MusicPlaylist)</zero>
+			<red>Container.NextViewMode</red>
+			<green>Info</green>
+			<yellow>SendClick(8)</yellow>
+			<blue>SendClick(3)</blue>
+			<help>Info</help>
+		</keyboard>
+	</MyMusicFiles>
+	<MyMusicLibrary>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+			<zero>ActivateWindow(MusicPlaylist)</zero>
+			<red>Container.NextViewMode</red>
+			<green>Info</green>
+			<yellow>SendClick(8)</yellow>
+			<blue>SendClick(3)</blue>
+			<help>Info</help>
+		</keyboard>
+	</MyMusicLibrary>
+	<FullscreenVideo>
+		<keyboard name="The Little Black Box Remote">
+			<red>ActivateWindow(SubtitleSearch)</red>
+			<green>ActivateWindow(OSDVideoSettings)</green>
+			<yellow>ActivateWindow(OSDAudioSettings)</yellow>
+			<blue>ActivateWindow(VideoBookmarks)</blue>
+			<rewind>Rewind</rewind>
+			<fastforward>FastForward</fastforward>
+			<config>CodecInfo</config>
+			<pageup>subtitledelayplus</pageup>
+			<pagedown>subtitledelayminus</pagedown>
+			<backspace>Fullscreen</backspace>
+			<return>OSD</return>
+			<menu>OSD</menu>
+			<left>StepBack</left>
+			<right>StepForward</right>
+			<up>BigStepForward</up>
+			<down>BigStepBack</down>
+			<f2>AudioDelay</f2>
+			<f3>AspectRatio</f3>
+			<f4>SubtitleDelay</f4>
+			<f5>TakeScreenshot</f5>
+			<f1>ActivateWindow(VideoPlaylist)</f1>
+			<dot>SkipNext</dot>
+			<comma>SkipPrevious</comma>
+			<help>ActivateWindow(FullscreenInfo)</help>
+			<delete>SmallStepBack</delete>
+			<two>Number2</two>
+			<three>Number3</three>
+			<four>Number4</four>
+			<five>Number5</five>
+			<six>Number6</six>
+			<seven>Number7</seven>
+			<eight>Number8</eight>
+			<nine>Number9</nine>
+		</keyboard>
+	</FullscreenVideo>
+	<VideoTimeSeek>
+		<keyboard name="The Little Black Box Remote">
+			<return>Select</return>
+		</keyboard>
+	</VideoTimeSeek>
+	<FullscreenInfo>
+		<keyboard name="The Little Black Box Remote">
+			<fastforward>FastForward</fastforward>
+			<rewind>Rewind</rewind>
+			<help>Back</help>
+			<menu>OSD</menu>
+		</keyboard>
+	</FullscreenInfo>
+	<PlayerControls>
+		<keyboard name="The Little Black Box Remote">
+			<menu>Back</menu>
+		</keyboard>
+	</PlayerControls>
+	<Visualisation>
+		<keyboard name="The Little Black Box Remote">
+			<config>ActivateWindow(1112)</config>
+			<c>RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(PVROSDChannels)","ActivateWindow(MusicPlaylist)")</c>
+			<fastforward>FastForward</fastforward>
+			<rewind>Rewind</rewind>
+			<backspace>Fullscreen</backspace>
+			<return>OSD</return>
+			<menu>OSD</menu>
+			<help>Info</help>
+			<left>SkipPrevious</left>
+			<right>SkipNext</right>
+			<up>RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(PVROSDChannels)","Action(IncreaseRating)")</up>
+			<down>RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(PVROSDChannels)","Action(DecreaseRating)")</down>
+			<red>RunScript(script.cu.lrclyrics)</red>
+			<green>RunScript(special://xbmc/system/keymaps/tlbb/py_activate_click.py,500)</green>
+			<yellow>Addon.Default.OpenSettings(xbmc.player.musicviz)</yellow>
+			<blue>ActivateWindow(VisualisationPresetList)</blue>
+			<f1>ActivateWindow(MusicPlaylist)</f1>
+		</keyboard>
+	</Visualisation>
+	<MusicOSD>
+		<keyboard name="The Little Black Box Remote">
+			<config>ActivateWindow(1112)</config>
+			<fastforward>FastForward</fastforward>
+			<rewind>Rewind</rewind>
+			<dot>SkipNext</dot>
+			<comma>SkipPrevious</comma>
+			<menu>Back</menu>
+			<help>CodecInfo</help>
+			<red>RunScript(script.cu.lrclyrics)</red>
+			<green>SendClick(500)</green>
+			<yellow>Addon.Default.OpenSettings(xbmc.player.musicviz)</yellow>
+			<blue>ActivateWindow(VisualisationPresetList)</blue>
+			<f1>ActivateWindow(MusicPlaylist)</f1>
+		</keyboard>
+	</MusicOSD>
+	<VisualisationSettings>
+		<keyboard name="The Little Black Box Remote">
+			<fastforward>FastForward</fastforward>
+			<rewind>Rewind</rewind>
+			<dot>SkipNext</dot>
+			<comma>SkipPrevious</comma>
+			<menu>Back</menu>
+			<help>CodecInfo</help>
+			<f1>ActivateWindow(MusicPlaylist)</f1>
+		</keyboard>
+	</VisualisationSettings>
+	<VisualisationPresetList>
+		<keyboard name="The Little Black Box Remote">
+			<fastforward>FastForward</fastforward>
+			<rewind>Rewind</rewind>
+			<dot>SkipNext</dot>
+			<comma>SkipPrevious</comma>
+			<menu>Back</menu>
+			<help>CodecInfo</help>
+			<blue>Close</blue>
+			<f1>ActivateWindow(MusicPlaylist)</f1>
+		</keyboard>
+	</VisualisationPresetList>
+	<SlideShow>
+		<keyboard name="The Little Black Box Remote">
+			<play_pause>Pause</play_pause>
+			<menu>ActivateWindow(PlayerControls)</menu>
+			<help>CodecInfo</help>
+			<pageup>ZoomIn</pageup>
+			<pagedown>ZoomOut</pagedown>
+			<return>Rotate</return>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</SlideShow>
+	<ScreenCalibration>
+		<keyboard name="The Little Black Box Remote">
+			<return>NextCalibration</return>
+			<red>ResetCalibration</red> 
+			<yellow>NextResolution</yellow> 
+		</keyboard>
+	</ScreenCalibration>
+	<GUICalibration>
+		<keyboard name="The Little Black Box Remote">
+			<return>NextCalibration</return>
+			<red>ResetCalibration</red>
+		</keyboard>
+	</GUICalibration>
+	<VideoOSD>
+		<keyboard name="The Little Black Box Remote">
+			<menu>Back</menu>
+			<f1>ActivateWindow(VideoPlaylist)</f1>
+			<music>AudioDelay</music>
+			<f2>AspectRatio</f2>
+			<help>CodecInfo</help>
+			<red>RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"ActivateWindow(Teletext)","ActivateWindow(SubtitleSearch)")</red>
+			<green>ActivateWindow(OSDVideoSettings)</green>
+			<yellow>ActivateWindow(OSDAudioSettings)</yellow>
+			<blue>RunScript(special://xbmc/system/keymaps/tlbb/py_ispvr.py,"PlayerControl(Record)","ActivateWindow(VideoBookmarks)")</blue>
+		</keyboard>
+	</VideoOSD>
+	<VideoMenu>
+		<keyboard name="The Little Black Box Remote">
+			<play_pause>Select</play_pause>
+			<red>ActivateWindow(SubtitleSearch)</red>
+			<green>ActivateWindow(OSDVideoSettings)</green>
+			<yellow>ActivateWindow(OSDAudioSettings)</yellow>
+			<blue>ActivateWindow(VideoBookmarks)</blue>
+			<rewind>Rewind</rewind>
+			<fastforward>FastForward</fastforward>
+			<config>CodecInfo</config>
+			<pageup>subtitledelayplus</pageup>
+			<pagedown>subtitledelayminus</pagedown>
+			<backspace>Fullscreen</backspace>
+			<return>OSD</return>
+			<menu>OSD</menu>
+			<left>StepBack</left>
+			<right>StepForward</right>
+			<up>BigStepForward</up>
+			<down>BigStepBack</down>
+			<f2>AudioDelay</f2>
+			<f3>AspectRatio</f3>
+			<f4>SubtitleDelay</f4>
+			<f5>TakeScreenshot</f5>
+			<f1>ActivateWindow(VideoPlaylist)</f1>
+			<dot>SkipNext</dot>
+			<comma>SkipPrevious</comma>
+			<help>ActivateWindow(FullscreenInfo)</help>
+			<delete>SmallStepBack</delete>
+			<two>Number2</two>
+			<three>Number3</three>
+			<four>Number4</four>
+			<five>Number5</five>
+			<six>Number6</six>
+			<seven>Number7</seven>
+			<eight>Number8</eight>
+			<nine>Number9</nine>
+		</keyboard>
+	</VideoMenu>
+	 <OSDVideoSettings>
+		<keyboard name="The Little Black Box Remote">
+			<help>Info</help>
+			<green>Close</green>
+		</keyboard>
+	</OSDVideoSettings>
+	<OSDAudioSettings>
+		<keyboard name="The Little Black Box Remote">
+			 <help>Info</help>
+			<yellow>Close</yellow>
+		</keyboard>
+	</OSDAudioSettings>
+	<VideoBookmarks>
+		<keyboard name="The Little Black Box Remote">
+			<red>Delete</red>
+			<blue>Close</blue>
+		</keyboard>
+	</VideoBookmarks>
+	<MyVideoLibrary>
+		<keyboard name="The Little Black Box Remote">
+			<fastforward>ToggleWatched</fastforward>
+			<rewind>SendClick(10)</rewind>
+			<config>SetFocus(9111)</config>
+			<red>Container.NextViewMode</red>
+			<green>Info</green>
+			<yellow>SendClick(8)</yellow>
+			<blue>SendClick(3)</blue>
+			<zero>ActivateWindow(VideoPlaylist)</zero>
+			<nine>ToggleWatched</nine> 
+		</keyboard>
+	</MyVideoLibrary>
+	<MyVideoFiles>
+		<keyboard name="The Little Black Box Remote">
+			<fastforward>ToggleWatched</fastforward>
+			<rewind>SendClick(10)</rewind>
+			<config>SetFocus(9111)</config>
+			<zero>ActivateWindow(VideoPlaylist)</zero>
+			<red>Container.NextViewMode</red>
+			<green>Info</green>
+			<yellow>SendClick(8)</yellow>
+			<blue>SendClick(3)</blue>
+			<nine>ToggleWatched</nine> 
+		</keyboard>
+	</MyVideoFiles>
+	<MyVideoPlaylist>
+		<keyboard name="The Little Black Box Remote">
+			<fastforward>ToggleWatched</fastforward>
+			<rewind>SendClick(10)</rewind>
+			<config>SetFocus(9111)</config>
+			<zero>Back</zero>
+			<pageup>MoveItemUp</pageup>
+			<pagedown>MoveItemDown</pagedown>
+			<red>Delete</red>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</MyVideoPlaylist>
+	<MyPictures>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+			<red>Container.NextViewMode</red>
+			<yellow>SendClick(7)</yellow>
+			<green>Info</green>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+			<help>Info</help>
+		</keyboard>
+	</MyPictures>
+	<ContextMenu>
+		<keyboard name="The Little Black Box Remote">
+			<menu>Back</menu>
+		</keyboard>
+	</ContextMenu>
+	<Scripts>
+		<keyboard name="The Little Black Box Remote">
+			<help>Info</help>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</Scripts>
+	<MusicInformation>
+		<keyboard name="The Little Black Box Remote">
+			<help>Back</help>
+		</keyboard>
+	</MusicInformation>
+	<MovieInformation>
+		<keyboard name="The Little Black Box Remote">
+			<help>Back</help>
+		</keyboard>
+	</MovieInformation>
+	<PictureInfo>
+		<keyboard name="The Little Black Box Remote">
+			<play_pause>Pause</play_pause>
+			<pageup>NextPicture</pageup>
+			<pagedown>PreviousPicture</pagedown>
+			<help>Back</help>
+		</keyboard>
+	</PictureInfo>
+	<Teletext>
+		<keyboard name="The Little Black Box Remote">
+			<red>Close</red>
+		</keyboard>
+	</Teletext>
+	<Favourites>
+		<keyboard name="The Little Black Box Remote">
+			<pageup>MoveItemUp</pageup>
+			<pagedown>MoveItemDown</pagedown>
+			<red>Delete</red>
+			<yellow>Close</yellow>
+		</keyboard>
+	</Favourites>
+	<NumericInput>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Backspace</backspace>
+		</keyboard>
+	</NumericInput>
+	<FullscreenLiveTV>
+		<keyboard name="The Little Black Box Remote">
+			<menu>OSD</menu>
+			<left>StepBack</left>
+			<right>StepForward</right>
+			<up>ActivateWindow(PVROSDChannels)</up>
+			<down>ActivateWindow(PVROSDChannels)</down>
+			<pageup>ChannelUp</pageup>
+			<pagedown>ChannelDown</pagedown>
+			<music>AudioDelay</music>
+			<f1>XBMC.ActivateWindowAndFocus(MyPVR, 31,0, 10,0)</f1>
+			<f2>AspectRatio</f2>
+			<help>CodecInfo</help>
+			<red>ActivateWindow(Teletext)</red>
+			<green>ActivateWindow(OSDVideoSettings)</green>
+			<yellow>ActivateWindow(OSDAudioSettings)</yellow>
+			<blue>PlayerControl(Record)</blue>
+		</keyboard>
+	</FullscreenLiveTV>
+	<MyPVR>
+		<keyboard name="The Little Black Box Remote">
+			<config>ActivateWindow(PVRSettings)</config>
+			<pageup>ChannelUp</pageup>
+			<pagedown>ChannelDown</pagedown>
+			<red>Delete</red>
+			<yellow>ActivateWindow(Favourites)</yellow>
+		</keyboard>
+	</MyPVR>
+	<PVROSDChannels>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Close</backspace>
+			<return>RunScript(special://xbmc/system/keymaps/tlbb/py_select_close.py)</return>
+			<pageup>ChannelUp</pageup>
+			<pagedown>ChannelDown</pagedown>
+		</keyboard>
+	</PVROSDChannels>
+	<PVROSDGuide>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Close</backspace>
+			<help>Select</help>
+		</keyboard>
+	</PVROSDGuide>
+	<PVRGuideInfo>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Close</backspace>
+			<help>Close</help>
+		</keyboard>
+	</PVRGuideInfo>
+	<PVROSDDirector>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Close</backspace>
+		</keyboard>
+	</PVROSDDirector>
+	<PVROSDCutter>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Close</backspace>
+		</keyboard>
+	</PVROSDCutter>
+	<MyTVSettings>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>PreviousMenu</backspace>
+		</keyboard>
+	</MyTVSettings>
+	<FileBrowser>
+		<keyboard name="The Little Black Box Remote">
+			<red>Delete</red>
+			<green>Highlight</green>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</FileBrowser>
+	<ShutdownMenu>
+		<keyboard name="The Little Black Box Remote">
+			<backspace>Close</backspace>
+		</keyboard>
+	</ShutdownMenu>
+	<AddonInformation>
+		<keyboard name="The Little Black Box Remote">
+			<help>Back</help>
+		</keyboard>
+	</AddonInformation>
+	<AddonSettings>
+		<keyboard name="The Little Black Box Remote">
+			<red>Delete</red>
+		</keyboard>
+	</AddonSettings>
+	<Weather>
+		<keyboard name="The Little Black Box Remote">
+			<config>SetFocus(9111)</config>
+			<yellow>ActivateWindow(Favourites)</yellow>
+			<blue>ActivateWindow(Videos,Addons,return)</blue>
+		</keyboard>
+	</Weather>
+	<SliderDialog>
+		<keyboard name="The Little Black Box Remote">
+			<music>Back</music>
+		</keyboard>
+	</SliderDialog>
+</keymap>
