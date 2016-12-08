@@ -3,10 +3,10 @@
 		<keyboard name="The Little Black Box Remote">
 			<power>ActivateWindow(ShutdownMenu)</power>					<!-- Button 01 : Power -->
 			<mute>Mute</mute>											<!-- Button 02 : Mute -->
-			<red>Close</red>											<!-- Button 03 : Red -->
-			<green>Close</green>										<!-- Button 04 : Green -->
-			<yellow>Close</yellow>										<!-- Button 05 : Yellow -->
-			<blue>Close</blue>											<!-- Button 06 : Blue -->
+			<red>ActivateWindow(TVChannels)</red>						<!-- Button 03 : Red -->
+			<green>ActivateWindow(MyVideos)</green>						<!-- Button 04 : Green -->
+			<yellow>ActivateWindow(MyMusic)</yellow>					<!-- Button 05 : Yellow -->
+			<blue>ActivateWindow(MyPictures)</blue>						<!-- Button 06 : Blue -->
 			<comma>SkipPrevious</comma>									<!-- Button 07 : Previous -->
 			<play_pause>PlayPause</play_pause>							<!-- Button 08 : PlayPause -->
 			<dot>SkipNext</dot>											<!-- Button 09 : Next -->
