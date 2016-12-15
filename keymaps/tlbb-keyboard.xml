@@ -2,15 +2,15 @@
 	<global>
 		<keyboard name="The Little Black Box Remote">
 			<power>ActivateWindow(ShutdownMenu)</power>					<!-- Button 01 : Power -->
-			<mute>Mute</mute>											<!-- Button 02 : Mute -->
+			<volume_mute>Mute</volume_mute>								<!-- Button 02 : Mute -->
 			<red>ActivateWindow(TVChannels)</red>						<!-- Button 03 : Red -->
 			<green>ActivateWindow(MyVideos)</green>						<!-- Button 04 : Green -->
 			<yellow>ActivateWindow(MyMusic)</yellow>					<!-- Button 05 : Yellow -->
 			<blue>ActivateWindow(MyPictures)</blue>						<!-- Button 06 : Blue -->
 			<comma>SkipPrevious</comma>									<!-- Button 07 : Previous -->
 			<play_pause>PlayPause</play_pause>							<!-- Button 08 : PlayPause -->
-			<dot>SkipNext</dot>											<!-- Button 09 : Next -->
-			<f9>RunScript(service.libreelec.settings)</f9>				<!-- Button 10 : Wifi -->
+			<period>SkipNext</period>									<!-- Button 09 : Next -->
+			<f6>RunScript(service.libreelec.settings)</f6>				<!-- Button 10 : Wifi -->
 			<rewind>Rewind</rewind>										<!-- Button 11 : Rewind -->
 			<stop>Stop</stop>											<!-- Button 12 : Stop -->
 			<fastforward>FastForward</fastforward>						<!-- Button 13 : FastForward -->
@@ -23,11 +23,11 @@
 			<favorites>ActivateWindow(Favourites)</favorites>			<!-- Button 20 : FAV -->
 			<up>Up</up>													<!-- Button 21 : Up -->
 			<left>Left</left>											<!-- Button 22 : Left -->
-			<select>Select</select>										<!-- Button 23 : Ok -->
+			<return>Select</return>										<!-- Button 23 : Ok -->
 			<right>Right</right>										<!-- Button 24 : Right -->
 			<down>Down</down>											<!-- Button 25 : Down -->
 			<config>ActivateWindow(Settings)</config>					<!-- Button 26 : Settings -->
-			<backspace>Back</backspace>									<!-- Button 27 : Return -->
+			<backspace>Back</backspace>									<!-- Button 27 : Back -->
 			<volume_up>VolumeUp</volume_up>								<!-- Button 28 : VOL+ -->
 			<volume_down>VolumeDown</volume_down>						<!-- Button 29 : VOL- -->
 			<home>ActivateWindow(Home)</home>							<!-- Button 30 : Home -->
@@ -210,7 +210,7 @@
 			<f4>SubtitleDelay</f4>
 			<f5>TakeScreenshot</f5>
 			<f1>ActivateWindow(VideoPlaylist)</f1>
-			<dot>SkipNext</dot>
+			<period>SkipNext</period>
 			<comma>SkipPrevious</comma>
 			<help>ActivateWindow(FullscreenInfo)</help>
 			<delete>SmallStepBack</delete>
@@ -268,7 +268,7 @@
 			<config>ActivateWindow(1112)</config>
 			<fastforward>FastForward</fastforward>
 			<rewind>Rewind</rewind>
-			<dot>SkipNext</dot>
+			<period>SkipNext</period>
 			<comma>SkipPrevious</comma>
 			<menu>Back</menu>
 			<help>CodecInfo</help>
@@ -283,7 +283,7 @@
 		<keyboard name="The Little Black Box Remote">
 			<fastforward>FastForward</fastforward>
 			<rewind>Rewind</rewind>
-			<dot>SkipNext</dot>
+			<period>SkipNext</period>
 			<comma>SkipPrevious</comma>
 			<menu>Back</menu>
 			<help>CodecInfo</help>
@@ -294,7 +294,7 @@
 		<keyboard name="The Little Black Box Remote">
 			<fastforward>FastForward</fastforward>
 			<rewind>Rewind</rewind>
-			<dot>SkipNext</dot>
+			<period>SkipNext</period>
 			<comma>SkipPrevious</comma>
 			<menu>Back</menu>
 			<help>CodecInfo</help>
@@ -364,7 +364,7 @@
 			<f4>SubtitleDelay</f4>
 			<f5>TakeScreenshot</f5>
 			<f1>ActivateWindow(VideoPlaylist)</f1>
-			<dot>SkipNext</dot>
+			<period>SkipNext</period>
 			<comma>SkipPrevious</comma>
 			<help>ActivateWindow(FullscreenInfo)</help>
 			<delete>SmallStepBack</delete>
@@ -486,6 +486,7 @@
 			<pagedown>MoveItemDown</pagedown>
 			<red>Delete</red>
 			<yellow>Close</yellow>
+			<favorites>Close</favorites>
 		</keyboard>
 	</Favourites>
 	<NumericInput>
@@ -541,7 +542,7 @@
 			<help>Close</help>
 		</keyboard>
 	</PVRGuideInfo>
-	<PVROSDDirector>
+<!--	<PVROSDDirector>
 		<keyboard name="The Little Black Box Remote">
 			<backspace>Close</backspace>
 		</keyboard>
@@ -550,7 +551,7 @@
 		<keyboard name="The Little Black Box Remote">
 			<backspace>Close</backspace>
 		</keyboard>
-	</PVROSDCutter>
+	</PVROSDCutter>-->
 	<MyTVSettings>
 		<keyboard name="The Little Black Box Remote">
 			<backspace>PreviousMenu</backspace>
