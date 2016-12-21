@@ -1,0 +1,38 @@
+<!--<Section><Name>Action                                                       Button nr : Name / icon on remote -->
+<keymap>
+    <global>
+        <keyboard name="M8 Remote (Square)">
+            <power>ActivateWindow(ShutdownMenu)</power>                    <!-- Button 01 : Power -->
+<!--        <power2>Mute</power2>                                          <!-- Button x1 : Power2 -->
+<!--        <set>Set</set>                                                 <!-- Button x2 : Set -->
+<!--        <tvin>TvIn</tvin>                                              <!-- Button x3 : Tv in -->
+<!--        <vol->VolumeDown</vol->                                        <!-- Button x4 : Vol- -->
+<!--        <vol+>VolumeUp</vol+>                                          <!-- Button x5 : Vol+ -->
+            <red>ActivateWindow(Settings)</red>                            <!-- Button 02 : Red -->
+            <green>ActivateWindow(Addonbrowser)</green>                    <!-- Button 03 : Green -->
+            <yellow>VolumeDown</yellow>                                    <!-- Button 04 : Yellow -->
+            <blue>VolumeUp</blue>                                          <!-- Button 05 : Blue -->
+            <home>ActivateWindow(Home)</home>                              <!-- Button 06 : Home -->
+            <backspace>Back</backspace>                                    <!-- Button 07 : Return -->
+            <up>Up</up>                                                    <!-- Button 08 : Up -->
+            <left>Left</left>                                              <!-- Button 09 : Left -->
+            <return>Select</return>                                        <!-- Button 10 : Ok -->
+            <right>Right</right>                                           <!-- Button 11 : Right -->
+            <down>Down</down>                                              <!-- Button 12 : Down -->
+            <f1>ContextMenu</f1>                                           <!-- Button 13 : ContextMenu -->
+            <help>Info</help>                                              <!-- Button 14 : Mouse -->
+            <one>Number1</one>                                             <!-- Button 15 : 1 -->
+            <two>Number2</two>                                             <!-- Button 16 : 2 -->
+            <three>Number3</three>                                         <!-- Button 17 : 3 -->
+            <four>Number4</four>                                           <!-- Button 18 : 4 -->
+            <five>Number5</five>                                           <!-- Button 19 : 5 -->
+            <six>Number6</six>                                             <!-- Button 20 : 6 -->
+            <seven>Number7</seven>                                         <!-- Button 21 : 7 -->
+            <eight>Number8</eight>                                         <!-- Button 22 : 8 -->
+            <nine>Number9</nine>                                           <!-- Button 23 : 9 -->
+            <volume_mute>Mute</volume_mute>                                <!-- Button 24 : Mute -->
+            <zero>Number0</zero>                                           <!-- Button 25 : 0 -->
+            <delete>Delete</delete>                                        <!-- Button 26 : Backspace -->
+        </keyboard>
+    </global>
+</keymap>
