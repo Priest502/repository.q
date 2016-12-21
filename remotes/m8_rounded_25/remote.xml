@@ -1,0 +1,32 @@
+<!--<Section><Name>Action                                                       Button nr : Icon / Name on remote -->
+<keymap>
+    <global>
+        <keyboard name="M8 Remote (Rounded)">
+            <power>ActivateWindow(ShutdownMenu)</power>                    <!-- Button 01 : Power -->
+            <f6>RunScript(service.librelec.settings)</f6>                  <!-- Button 02 : Internet -->
+            <volume_mute>Mute</volume_mute>                                <!-- Button 03 : Mute -->
+            <volume_down>VolumeDown</volume_down>                          <!-- Button 04 : Volume- -->
+            <volume_up>VolumeUp</volume_up>                                <!-- Button 05 : Volume+ -->
+            <up>Up</up>                                                    <!-- Button 06 : Up -->
+            <left>Left</left>                                              <!-- Button 07 : Left -->
+            <return>Select</return>                                        <!-- Button 08 : Ok -->
+            <right>Right</right>                                           <!-- Button 09 : Right -->
+            <down>Down</down>                                              <!-- Button 10 : Down -->
+            <f1>ContextMenu</f1>                                           <!-- Button 11 : ContextMenu -->
+            <home>ActivateWindow(Home)</home>                              <!-- Button 12 : Home -->
+            <backspace>Back</backspace>                                    <!-- Button 13 : Return -->
+            <one>Number1</one>                                             <!-- Button 14 : 1 -->
+            <two>Number2</two>                                             <!-- Button 15 : 2 -->
+            <three>Number3</three>                                         <!-- Button 16 : 3 -->
+            <four>Number4</four>                                           <!-- Button 17 : 4 -->
+            <five>Number5</five>                                           <!-- Button 18 : 5 -->
+            <six>Number6</six>                                             <!-- Button 19 : 6 -->
+            <seven>Number7</seven>                                         <!-- Button 20 : 7 -->
+            <eight>Number8</eight>                                         <!-- Button 21 : 8 -->
+            <nine>Number9</nine>                                           <!-- Button 22 : 9 -->
+            <delete>Delete</delete>                                        <!-- Button 23 : Backspace -->
+            <zero>Number0</zero>                                           <!-- Button 24 : 0 -->
+            <help>Info</help>                                              <!-- Button 25 : Mouse -->
+        </keyboard>
+    </global>
+</keymap>
