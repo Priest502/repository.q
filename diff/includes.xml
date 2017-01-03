@@ -76,7 +76,7 @@
 			<width>400</width>
 			<height>120</height>
 			<aspectratio>keep</aspectratio>
-			<texture>custom-logo.png</texture>
+			<texture>aeon-nox-logo.png</texture>
 		</control>
 	</include>
 	<include name="KioskModeButton">
@@ -497,7 +497,7 @@
 	<include name="BrowserButton">
 		<visible>!Skin.HasSetting(NoBrowserButton)</visible>
 		<control type="button" id="9030">
-			<label>www</label>
+			<label>web</label>
 			<textoffsetx>0</textoffsetx>
 			<width>100</width>
 			<height>41</height>
@@ -517,6 +517,7 @@
 			</animation>
 		</control>
 		<control type="image">
+			<visible>System.InternetState</visible>
 			<left>100</left>
 			<top></top>
 			<width>40</width>
