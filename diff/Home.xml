@@ -23,7 +23,7 @@
 				<control type="image">
 				    <left>0</left>
 					<width>1920</width>
-					<height>120</height>
+					<height>88</height>
 					<texture flipy="true">submenu_bar.png</texture>
 				</control>
 				<control type="image">
@@ -46,8 +46,8 @@
 					<shadowcolor>shadow</shadowcolor>
 				</control>
 				<control type="grouplist" id="9020">
-					<left>-555</left>
-					<top>66</top>
+					<left>-1050</left>
+					<top>46</top>
 					<width>1790</width>
 					<height>41</height>
 					<align>right</align>
@@ -57,7 +57,6 @@
 					<onup condition="![Control.IsVisible(9003) | Control.IsVisible(9004)]">9000</onup>
 					<ondown>9000</ondown>
 					<include condition="System.HasAddon(script.globalsearch)">HomeSearchButton</include>
-					<include condition="System.HasAddon(plugin.program.switcher)">AdultSwitcherButton</include>
 					<control type="button" id="9021">
 						<label></label>
 						<textoffsetx>0</textoffsetx>
@@ -241,13 +240,6 @@
 					<onclick>Control.Move(9010,1)</onclick>
 				</control>
 			</control>
-	        <control type="image">
-				<left>0</left>
-				<top>-840</top>
-				<width>1920</width>
-				<height>900</height>
-				<texture flipx="true" border="1">backdrop_bg.png</texture>
-			</control>			
 			<control type="image">
 				<top>-1</top>
 				<width>FullScreenWidth</width>
@@ -292,25 +284,18 @@
 			</control>
 			<control type="image">
 				<left>0</left>
-				<top>-3</top>
-				<width>1920</width>
-				<height>295</height>
+				<top>43</top>
+				<width>100</width>
+				<height>240</height>
 				<texture border="1">side_fade.png</texture>
 			</control>
 			<control type="image">
-				<left>0</left>
-				<top>109</top>
-				<width>1920</width>
-				<height>160</height>
-				<texture flipx="true" border="1">side_rails.png</texture>
+				<left>1820</left>
+				<top>43</top>
+				<width>100</width>
+				<height>240</height>
+				<texture flipx="true" border="1">side_fade.png</texture>
 			</control>
-			<control type="image">
-				<left>-6</left>
-				<top>-1</top>
-				<width>FullScreenWidth</width>
-				<height>295</height>
-				<texture flipx="true" border="1">text_front.png</texture>
-			</control>			
 			<control type="image">
 				<top>103</top>
 				<width>FullScreenWidth</width>
