@@ -1,3 +1,7 @@
+v5.0.1
+- Enhanced Youtube statistic handling
+- Fixed Trakt trending movies section
+
 v5.0.0
 - Changed youtube playback to use kodi's default youtube plugin
 - Fixed krypton incompatibility (thanks Midraal)
