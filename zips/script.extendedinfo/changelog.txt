@@ -1,3 +1,8 @@
+v5.0.2
+- Added filter-favouriting for movies and tvshows in main script interface
+- Fixed crash when query is empty
+- Changed youtube language filter to region filter
+
 v5.0.1
 - Enhanced Youtube statistic handling
 - Fixed Trakt trending movies section
