@@ -1,3 +1,12 @@
+[B]Version 4.0.1MR[/B]
+- EPiC XvBMC Maintenance Release...
+
+[B]Version 4.0.1[/B]
+- EPiC XvBMC code cosmetics VooDoo ;-P
+
+[B]Version 4.0.0[/B]
+- EPiC XvBMC VooDoo stuff ;-P
+
 [B]Version 3.0.1[/B]
 - EPiC v3 code cosmetics ;-P 
 
