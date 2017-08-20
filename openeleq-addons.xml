@@ -316,7 +316,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od" version="5.0.3" provider-name="Modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], original work by phil65">
+<addon id="script.extendedinfo" name="[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od" version="5.0.4" provider-name="Modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], original work by phil65">
   <requires>
     <import addon="xbmc.python"                     version="2.19.0"/>
     <import addon="plugin.program.super.favourites" version="1.0.48"/>
